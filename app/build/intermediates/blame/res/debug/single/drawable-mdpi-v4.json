@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    }
+]

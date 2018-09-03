@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wms.newwmsapp"
+    android:versionCode="9"
+    android:versionName="1.0.9">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:name="com.wms.newwmsapp.application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.wms.newwmsapp.base.BaseActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wms.newwmsapp.base.BaseScanActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wms.newwmsapp.activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.wms.newwmsapp.activity.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name="com.wms.newwmsapp.activity.InstockListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name="com.wms.newwmsapp.activity.InstockDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+
+        <activity
+            android:name="com.wms.newwmsapp.activity.UpListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name="com.wms.newwmsapp.activity.UpDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name="com.wms.newwmsapp.activity.PickUpConfirmActivity"
+            android:label="@string/title_activity_pick_up_confirm"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.wms.newwmsapp.activity.PickUpConfirmDetailActivity"
+            android:label="@string/title_activity_pick_up_confirm_detail"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.wms.newwmsapp.activity.OutStockConfirmActivity"
+            android:label="@string/title_activity_out_stock_confirm"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.wms.newwmsapp.activity.OutStockConfirmDetailActivity"
+            android:label="@string/title_activity_out_stock_confirm_detail"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.wms.newwmsapp.activity.BatchPickupConfirmActivity"
+            android:label="@string/title_activity_batch_pickup_confirm"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.wms.newwmsapp.activity.BatchPickupDetailActivity"
+            android:label="@string/title_activity_batch_pickup_detail"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.wms.newwmsapp.activity.SeedingActivity"
+            android:label="@string/title_activity_seeding"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.wms.newwmsapp.activity.SeedingDetailActivity"
+            android:label="@string/title_activity_seeding_detail"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.wms.newwmsapp.activity.BatchTaskActivity"
+            android:label="BatchTaskActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.wms.newwmsapp.activity.TaskDetailActivity"
+            android:label="TaskDetailActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.wms.newwmsapp.activity.PDAOutStockConfirmActivity"
+            android:label="@string/title_activity_pdaout_stock_confirm"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.wms.newwmsapp.activity.OutStockHaveBarCodeActivity"
+            android:label="@string/title_activity_out_stock_have_bar_code"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.wms.newwmsapp.activity.SeedingPickupConfimActivity"
+            android:label="@string/title_activity_seeding_pickup_confirm"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.wms.newwmsapp.activity.SeedingPickupDetailActivity"
+            android:label="@string/title_activity_seeding_pickup_detail"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.wms.newwmsapp.activity.StockInSearchActivity"
+            android:label="@string/title_activity_stock_in_search"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.wms.newwmsapp.activity.StockCheckTaskActivity"
+            android:label="@string/title_activity_stock_check_task"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.wms.newwmsapp.activity.StockTaskDetailActivity"
+            android:label="@string/title_activity_stock_task_detail"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.wms.newwmsapp.activity.AddNewStockTaskActivity"
+            android:label="@string/title_activity_add_new_stock"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.wms.newwmsapp.activity.SeedingOtherActivity"
+            android:label="@string/title_activity_seeding_other"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.wms.newwmsapp.activity.SeedingOtherDetailActivity"
+            android:label="SeedingOtherDetailActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.wms.newwmsapp.activity.SeedingLastActivity"
+            android:label="SeedingLastActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.wms.newwmsapp.activity.PickUpOtherActivity"
+            android:label="PickUpOtherActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.wms.newwmsapp.activity.ZhuancangToCarActivity"
+            android:label="ZhuancangToCarActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.wms.newwmsapp.activity.FinishToCarActivity"
+            android:label="FinishToCarActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.wms.newwmsapp.activity.BatchPickupOtherActivity"
+            android:label="BatchPickupOtherActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.wms.newwmsapp.activity.DownToOtherActivity"
+            android:label="DownToOtherActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.wms.newwmsapp.activity.PostDownToOtherActivity"
+            android:label="PostDownToOtherActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.wms.newwmsapp.activity.HasDownListActivity"
+            android:label="HasDownListActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.wms.newwmsapp.activity.UpToOtherActivity"
+            android:label="UpToOtherActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.wms.newwmsapp.activity.UpToOtherDetailActivity"
+            android:label="UpToOtherDetailActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
+            android:name="com.wms.newwmsapp.activity.HasUpListActivity"
+            android:label="HasUpListActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+    </application>
+
+</manifest>

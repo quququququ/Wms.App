@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="zltd-n2s-scanner">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/zltd-n2s-scanner.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

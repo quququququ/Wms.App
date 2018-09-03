@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WMS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <drawable name="btn_pressed">#E8E8E8</drawable>
+
+    <string name="title_activity_pick_up_confirm">PickUpConfirm</string>
+    <string name="title_activity_pick_up_confirm_detail">PickUpConfirmDetailActivity</string>
+    <string name="title_activity_out_stock_confirm">OutStockConfirmActivity</string>
+    <string name="title_activity_out_stock_confirm_detail">OutStockConfirmDetailActivity</string>
+    <string name="title_activity_batch_pickup_confirm">BatchPickupConfirmActivity</string>
+    <string name="title_activity_batch_pickup_detail">BatchPickupDetailActivity</string>
+    <string name="title_activity_seeding">SeedingActivity</string>
+    <string name="title_activity_seeding_detail">SeedingDetailActivity</string>
+    <string name="title_activity_pdaout_stock_confirm">PDAOutStockConfirmActivity</string>
+    <string name="title_activity_out_stock_have_bar_code">OutStockHaveBarCodeActivity</string>
+    <string name="title_activity_seeding_pickup_confirm">SeedingPickupConfimActivity</string>
+    <string name="title_activity_seeding_pickup_detail">SeedingPickupDetailActivity</string>
+    <string name="title_activity_stock_in_search">StockInSearchActivity</string>
+    <string name="title_activity_stock_check_task">StockCheckTaskActivity</string>
+    <string name="title_activity_stock_task_detail">StockTaskDetailActivity</string>
+    <string name="title_activity_add_new_stock">AddNewStockTaskActivity</string>
+    <string name="title_activity_seeding_other">SeedingOtherActivity</string>
+
+</resources>

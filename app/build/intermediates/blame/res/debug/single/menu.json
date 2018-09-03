@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\out_stock_confirm.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\menu\\out_stock_confirm.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\out_stock_confirm_detail.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\menu\\out_stock_confirm_detail.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\batch_pickup_confirm.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\menu\\batch_pickup_confirm.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\pick_up_confirm_detail.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\menu\\pick_up_confirm_detail.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\pick_up_confirm.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\menu\\pick_up_confirm.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\pick_up_confirm_detail.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\menu\\pick_up_confirm_detail.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\pdaout_stock_confirm.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\menu\\pdaout_stock_confirm.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\out_stock_have_bar_code.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\menu\\out_stock_have_bar_code.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\seeding_detail.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\menu\\seeding_detail.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\batch_pickup_detail.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\menu\\batch_pickup_detail.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\pdaout_stock_confirm.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\menu\\pdaout_stock_confirm.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\stock_in_search.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\menu\\stock_in_search.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\out_stock_confirm.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\menu\\out_stock_confirm.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\out_stock_have_bar_code.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\menu\\out_stock_have_bar_code.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\pick_up_confirm.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\menu\\pick_up_confirm.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\batch_pickup_detail.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\menu\\batch_pickup_detail.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\seeding_detail.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\menu\\seeding_detail.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\out_stock_confirm_detail.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\menu\\out_stock_confirm_detail.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\batch_pickup_confirm.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\menu\\batch_pickup_confirm.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\seeding.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\menu\\seeding.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\out_stock_have_bar_code.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\menu\\out_stock_have_bar_code.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\batch_pickup_detail.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\menu\\batch_pickup_detail.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\seeding.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\menu\\seeding.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\pdaout_stock_confirm.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\menu\\pdaout_stock_confirm.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\pick_up_confirm_detail.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\menu\\pick_up_confirm_detail.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\stock_in_search.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\menu\\stock_in_search.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\seeding.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\menu\\seeding.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\batch_pickup_confirm.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\menu\\batch_pickup_confirm.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\seeding_detail.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\menu\\seeding_detail.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\stock_in_search.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\menu\\stock_in_search.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\out_stock_confirm.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\menu\\out_stock_confirm.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\pick_up_confirm.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\menu\\pick_up_confirm.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\menu\\out_stock_confirm_detail.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\menu\\out_stock_confirm_detail.xml"
+    }
+]

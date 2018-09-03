@@ -1,0 +1,94 @@
+package com.wms.newwmsapp.volley;
+
+import android.os.Handler;
+
+import java.util.concurrent.Executor;
+
+public class ExecutorDelivery implements ResponseDelivery {
+	/** Used for posting responses, typically to the main thread. */
+	private final Executor mResponsePoster;
+
+	public ExecutorDelivery(final Handler handler) {
+		mResponsePoster = new Executor() {
+			@Override
+			public void execute(Runnable command) {
+				handler.post(command);
+			}
+		};
+	}
+
+	public ExecutorDelivery(Executor executor) {
+		mResponsePoster = executor;
+	}
+
+	@Override
+	public void postResponse(Request<?> request, Response<?> response) {
+		postResponse(request, response, null);
+	}
+
+	@Override
+	public void postResponse(Request<?> request, Response<?> response,
+			Runnable runnable) {
+		request.markDelivered();
+		request.addMarker("post-response");
+		mResponsePoster.execute(new ResponseDeliveryRunnable(request, response,
+				runnable));
+	}
+
+	@Override
+	public void postError(Request<?> request, VolleyError error) {
+		request.addMarker("post-error");
+		Response<?> response = Response.error(error);
+		mResponsePoster.execute(new ResponseDeliveryRunnable(request, response,
+				null));
+	}
+
+	/**
+	 * A Runnable used for delivering network responses to a listener on the
+	 * main thread.
+	 */
+	@SuppressWarnings("rawtypes")
+	private class ResponseDeliveryRunnable implements Runnable {
+		private final Request mRequest;
+		private final Response mResponse;
+		private final Runnable mRunnable;
+
+		public ResponseDeliveryRunnable(Request request, Response response,
+				Runnable runnable) {
+			mRequest = request;
+			mResponse = response;
+			mRunnable = runnable;
+		}
+
+		@SuppressWarnings("unchecked")
+		@Override
+		public void run() {
+			// If this request has canceled, finish it and don't deliver.
+			if (mRequest.isCanceled()) {
+				mRequest.finish("canceled-at-delivery");
+				return;
+			}
+
+			// Deliver a normal response or error, depending.
+			if (mResponse.isSuccess()) {
+				mRequest.deliverResponse(mResponse.result);
+			} else {
+				mRequest.deliverError(mResponse.error);
+			}
+
+			// If this is an intermediate response, add a marker, otherwise
+			// we're done
+			// and the request can be finished.
+			if (mResponse.intermediate) {
+				mRequest.addMarker("intermediate-response");
+			} else {
+				mRequest.finish("done");
+			}
+
+			// If we have been provided a post-delivery runnable, run it.
+			if (mRunnable != null) {
+				mRunnable.run();
+			}
+		}
+	}
+}

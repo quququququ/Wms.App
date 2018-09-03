@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="G:\Wms.App_two\Wms.App_two\app\libs\fastjson-1.1.41.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="a244aa752b9e0210d0e50b5c1e11319711ed9290">
+        <dex dex="G:\Wms.App_two\Wms.App_two\app\build\intermediates\pre-dexed\debug\fastjson-1.1.41_138fdac66cb0a4ac4aa5fdc93462731cfda19469.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\Wms.App_two\Wms.App_two\app\libs\universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="G:\Wms.App_two\Wms.App_two\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3_85ed82443c95ffa1749de213710e6aa0cef7fc4f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\Wms.App_two\Wms.App_two\app\libs\galaxy_lite.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="b1e093b8677ecfe2f24999831276e21b570084a0">
+        <dex dex="G:\Wms.App_two\Wms.App_two\app\build\intermediates\pre-dexed\debug\galaxy_lite_d2b00237e122ee38b12e5a2db2defbca3865fe36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\Wms.App_two\Wms.App_two\app\libs\com.baidu.speechsynthesizer_1.1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="3d2893f5d247abdb660dbeb015240be59531df24">
+        <dex dex="G:\Wms.App_two\Wms.App_two\app\build\intermediates\pre-dexed\debug\com.baidu.speechsynthesizer_1.1.2_01674cf2e5fdb5d1fe3845b7527da3dd27e0ed80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\Wms.App_two\Wms.App_two\app\libs\zltd-n2s-scanner.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="9b286fd5ca992bf6f8c12608a2c6dfd672186166">
+        <dex dex="G:\Wms.App_two\Wms.App_two\app\build\intermediates\pre-dexed\debug\zltd-n2s-scanner_01b811de961bb6d15872d5a6ab3f4335db64b19f.jar" />
+    </item>
+
+</items>

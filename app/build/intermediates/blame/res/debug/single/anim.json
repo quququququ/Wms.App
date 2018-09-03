@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_top.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\anim\\slide_out_to_top.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_bottom.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\anim\\slide_out_to_bottom.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_bottom.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\anim\\slide_out_to_bottom.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_bottom.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\anim\\slide_out_to_bottom.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_bottom.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\anim\\slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_bottom.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\anim\\slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\anim\\bga_refresh_loding.xml",
+        "source": "G:\\Users\\qupengcheng\\.android\\build-cache\\0fa64e90fad93f8fdcba09a44f93e0ad971214ad\\output\\res\\anim\\bga_refresh_loding.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\anim\\bga_refresh_loding.xml",
+        "source": "C:\\Users\\cheng\\.android\\build-cache\\a785ecb6868baa47c37e3879cb384ca920dbe980\\output\\res\\anim\\bga_refresh_loding.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\anim\\progress_round.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\anim\\progress_round.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\anim\\bga_refresh_loding.xml",
+        "source": "C:\\Users\\cheng\\.android\\build-cache\\a785ecb6868baa47c37e3879cb384ca920dbe980\\output\\res\\anim\\bga_refresh_loding.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\anim\\progress_round.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\anim\\progress_round.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_top.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\anim\\slide_out_to_top.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_top.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\anim\\slide_in_from_top.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\anim\\progress_round.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\anim\\progress_round.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_top.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\anim\\slide_out_to_top.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_top.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\anim\\slide_in_from_top.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_top.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\anim\\slide_in_from_top.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_bottom.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\anim\\slide_in_from_bottom.xml"
+    }
+]

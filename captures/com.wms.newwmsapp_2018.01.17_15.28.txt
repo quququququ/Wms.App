@@ -1,0 +1,301 @@
+TASK com.wms.newwmsapp id=42
+  ACTIVITY com.wms.newwmsapp/.activity.StockTaskDetailActivity 4a992c5c pid=10770
+    Local Activity 4a9072c0 State:
+      mResumed=true mStopped=false mFinished=false
+      mLoadersStarted=true
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 310mcc260mnc zh_CN ldltr sw480dp w480dp h828dp 240dpi lrg long port finger qwerty/v/v dpad/v s.6}
+    FragmentManager misc state:
+      mActivity=com.wms.newwmsapp.activity.StockTaskDetailActivity@4a9072c0
+      mContainer=android.app.Activity$1@4a8fa100
+      mCurState=5 mStateSaved=false mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=6138566 (35 ms ago)
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{4a932134 V.E..... R....... 0,0-720,1280}
+        android.widget.LinearLayout{4a932270 V.E..... ........ 0,0-720,1280}
+          android.view.ViewStub{4a8b5bf4 G.E..... ......I. 0,0-0,0 #102030e}
+          android.widget.FrameLayout{4a9326d4 V.ED.... ........ 0,0-720,1280 #1020002 android:id/content}
+            android.widget.LinearLayout{4a9327ec V.E..... ........ 0,0-720,1280}
+              android.widget.RelativeLayout{4a8e3418 V.E..... ........ 0,0-720,75}
+                android.widget.ImageView{4a8ff3e8 V.ED..C. ........ 8,21-53,53 #7f0a0014 app:id/back}
+                android.widget.TextView{4a8e3534 V.ED.... ........ 300,8-420,67}
+                android.widget.TextView{4a8e3a24 I.ED.... ......I. 705,21-705,54}
+              android.widget.RelativeLayout{4a8e3b7c V.E..... ........ 0,90-720,162}
+                android.widget.EditText{4a8e3c98 VFED..CL .F...... 15,23-481,60 #7f0a0065 app:id/et_search_code}
+                android.widget.Button{4a8e3df0 VFED..C. ........ 481,0-577,72 #7f0a0066 app:id/search_one_code}
+                android.widget.Button{4a8e3f48 VFED..C. ........ 592,0-712,72 #7f0a0067 app:id/all_list}
+              android.widget.RelativeLayout{4a8e40a0 V.E..... ........ 0,162-720,1280}
+                android.widget.ListView{4a8e41bc VFED.VC. ........ 0,15-720,1038 #7f0a0068 app:id/lv_task_detail}
+                  android.widget.LinearLayout{4a95bd0c V.E..... ........ 0,0-720,196}
+                    android.widget.RelativeLayout{4a95be94 V.E..... ........ 0,0-720,196}
+                      android.widget.LinearLayout{4a95c0bc V.E..... ........ 8,8-712,188 #7f0a00a7 app:id/ll_stock_task_detail}
+                        android.widget.LinearLayout{4a95c350 V.E..... ........ 8,16-696,45}
+                          android.widget.TextView{4a95c4d8 V.ED.... ........ 0,0-105,29}
+                          android.widget.TextView{4a95c708 V.ED.... ........ 105,0-688,29 #7f0a00a8 app:id/task_name}
+                        android.widget.LinearLayout{4a95cc2c V.E..... ........ 8,53-696,82}
+                          android.widget.LinearLayout{4a95cd94 V.E..... ........ 0,0-340,29}
+                            android.widget.TextView{4a95cefc V.ED.... ........ 0,0-105,29}
+                            android.widget.TextView{4a95d10c V.ED.... ........ 105,0-340,29 #7f0a00a9 app:id/task_bianma}
+                          android.widget.LinearLayout{4a95d3f0 V.E..... ........ 348,0-688,29}
+                            android.widget.TextView{4a95d558 V.ED.... ........ 0,0-105,29}
+                            android.widget.TextView{4a95d788 V.ED.... ........ 105,0-340,29 #7f0a00aa app:id/task_tiaoma}
+                        android.widget.LinearLayout{4a95da8c V.E..... ........ 8,90-696,127}
+                          android.widget.LinearLayout{4a95dbf4 V.E..... ........ 0,0-340,37}
+                            android.widget.TextView{4a95dd5c V.ED.... ........ 0,6-105,35}
+                            android.widget.EditText{4a95dfac V..D..CL ........ 105,0-340,37 #7f0a00ab app:id/tv_product_time}
+                          android.widget.LinearLayout{4a95e858 V.E..... ........ 348,0-688,37}
+                            android.widget.TextView{4a95e9c0 V.ED.... ........ 0,6-104,35}
+                            android.widget.EditText{4a95ebf0 V..D..CL ........ 104,0-340,37 #7f0a00ac app:id/tv_product_id}
+                        android.widget.LinearLayout{4a95f24c V.E..... ........ 8,135-696,172}
+                          android.widget.LinearLayout{4a95f3b4 G.E..... ......I. 0,0-0,0 #7f0a00ad app:id/ll_select_num_quality}
+                            android.widget.RelativeLayout{4a95f51c V.E..... ......I. 0,0-0,0}
+                              android.widget.TextView{4a95f744 V.ED.... ......ID 0,0-0,0 #7f0a00ae app:id/tv_danwei}
+                              android.widget.Spinner{4a95fa98 V.ED..C. ......I. 0,0-0,0 #7f0a007e app:id/UnitName}
+                            android.widget.RelativeLayout{4a962790 V.E..... ......I. 0,0-0,0}
+                              android.widget.TextView{4a9629b8 V.ED.... ......ID 0,0-0,0 #7f0a00af app:id/tv_quality}
+                              android.widget.Spinner{4a962c5c V.ED..C. ......I. 0,0-0,0 #7f0a007d app:id/QualityName}
+                          android.widget.LinearLayout{4a9633c0 V.E..... ........ 0,0-340,29 #7f0a00b0 app:id/ll_num}
+                            android.widget.TextView{4a963528 V.ED.... ........ 0,0-103,29}
+                            android.widget.TextView{4a96375c V.ED.... ........ 103,0-340,29 #7f0a00b1 app:id/tv_num}
+                          android.widget.LinearLayout{4a963a40 V.E..... ........ 348,0-688,37}
+                            android.widget.TextView{4a963ba8 V.ED.... ........ 0,6-105,35}
+                            android.widget.EditText{4a963dd8 V..D..CL ........ 105,0-340,37 #7f0a00b2 app:id/tv_pan_num}
+                      android.widget.ImageView{4a9646b4 G.ED.... ......I. 0,0-0,0 #7f0a00b3 app:id/iv_delete_image}
+                android.widget.LinearLayout{4a8e625c V.E..... ........ 0,1046-720,1118 #7f0a0069 app:id/ll_select_add_commit}
+                  android.widget.Button{4a8e637c VFED..C. ........ 0,0-96,72 #7f0a006a app:id/btn_to_add}
+                  android.widget.TextView{4a8e64d4 V.ED.... ........ 111,23-609,52}
+                  android.widget.Button{4a8e662c VFED..C. ........ 609,0-705,72 #7f0a006b app:id/btn_to_commit}
+    Looper (main, tid 1) {4a7fbca4}
+      Message 0: { when=+55ms what=2 arg1=1 obj=android.graphics.drawable.AnimationDrawable@4a8eb098 target=android.view.Choreographer$FrameHandler }
+      Message 1: { when=+64ms callback=android.graphics.drawable.AnimationDrawable target=android.view.ViewRootImpl$ViewRootHandler }
+      Message 2: { when=+359ms callback=android.widget.Editor$Blink target=android.widget.Editor$Blink }
+      (Total messages: 3, idling=false, quitting=false)
+
+  ACTIVITY com.wms.newwmsapp/.activity.StockCheckTaskActivity 4a972184 pid=10770
+    Local Activity 4a8bd518 State:
+      mResumed=false mStopped=true mFinished=false
+      mLoadersStarted=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 310mcc260mnc zh_CN ldltr sw480dp w480dp h828dp 240dpi lrg long port finger qwerty/v/v dpad/v s.6}
+    FragmentManager misc state:
+      mActivity=com.wms.newwmsapp.activity.StockCheckTaskActivity@4a8bd518
+      mContainer=android.app.Activity$1@4a8b4a30
+      mCurState=3 mStateSaved=true mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=6138566 (39 ms ago)
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{4a8c7044 I.E..... R......D 0,0-720,1280}
+        android.widget.LinearLayout{4a8cf04c V.E..... .......D 0,0-720,1280}
+          android.view.ViewStub{4a8c87bc G.E..... ......I. 0,0-0,0 #102030e}
+          android.widget.FrameLayout{4a8c3734 V.ED.... .......D 0,0-720,1280 #1020002 android:id/content}
+            android.widget.LinearLayout{4a8070b8 V.E..... .......D 0,0-720,1280}
+              android.widget.RelativeLayout{4a8c8d40 V.E..... ........ 0,0-720,75}
+                android.widget.ImageView{4a9092fc V.ED..C. ........ 8,21-53,53 #7f0a0014 app:id/back}
+                android.widget.TextView{4a90e210 V.ED.... ........ 300,8-420,67}
+              android.widget.LinearLayout{4a8cf25c V.E..... ........ 0,75-720,136}
+                android.widget.TextView{4a908f74 V.ED.... ........ 17,8-243,53}
+                android.widget.TextView{4a8cd644 V.ED.... ........ 247,8-473,53}
+                android.widget.TextView{4a8ba1bc V.ED.... ........ 477,8-703,53}
+                android.widget.TextView{4a8ba3d8 G.ED.... ......I. 0,0-0,0}
+              android.view.View{4a8baf38 V.ED.... ........ 15,136-705,138}
+              cn.bingoogolapple.refreshlayout.BGARefreshLayout{4a9063a4 V.E..... .......D 0,138-720,1280 #7f0a0061 app:id/mrefresh}
+                android.widget.LinearLayout{4a900774 V.E..... ......ID 0,0-720,0}
+                  android.widget.LinearLayout{4a8b5cd4 V.E..... ......ID 0,-97-720,0}
+                    android.widget.FrameLayout{4a8b5df4 V.E..... ......ID 291,23-342,74}
+                      android.widget.ImageView{4a8df6d0 V.ED.... ......ID 4,4-46,46 #7f0a00c4 app:id/iv_normal_refresh_header_arrow}
+                      android.widget.ImageView{4a8df8c0 I.ED.... ......I. 0,0-51,51 #7f0a00c5 app:id/iv_normal_refresh_header_chrysanthemum}
+                    android.widget.TextView{4a8ea89c V.ED.... ......ID 357,36-429,61 #7f0a00c6 app:id/tv_normal_refresh_header_status}
+                android.widget.ListView{4a8df108 VFED.VC. .F....ID 0,0-720,1142 #7f0a005b app:id/pull_stock_check_task}
+                  android.widget.LinearLayout{4a9346c8 V.E..... ........ 0,0-720,65 #7f0a0035 app:id/instock_lin}
+                    android.widget.LinearLayout{4a934808 V.E..... ........ 0,8-720,57}
+                      android.widget.TextView{4a934c44 V.ED.... ........ 8,8-243,41 #7f0a0018 app:id/Code}
+                      android.widget.TextView{4a934e70 V.ED..C. ........ 243,8-478,41 #7f0a0075 app:id/PurchaseNO}
+                      android.widget.TextView{4a935074 V.ED.... ........ 478,8-712,41 #7f0a0076 app:id/CustGoodsName}
+                  android.widget.LinearLayout{4a935c54 V.E..... ........ 0,66-720,131 #7f0a0035 app:id/instock_lin}
+                    android.widget.LinearLayout{4a935d94 V.E..... ........ 0,8-720,57}
+                      android.widget.TextView{4a935fa8 V.ED.... ........ 8,8-243,41 #7f0a0018 app:id/Code}
+                      android.widget.TextView{4a9361ac V.ED..C. ........ 243,8-478,41 #7f0a0075 app:id/PurchaseNO}
+                      android.widget.TextView{4a9363b0 V.ED.... ........ 478,8-712,41 #7f0a0076 app:id/CustGoodsName}
+                  android.widget.LinearLayout{4a936d58 V.E..... ........ 0,132-720,197 #7f0a0035 app:id/instock_lin}
+                    android.widget.LinearLayout{4a936e98 V.E..... ........ 0,8-720,57}
+                      android.widget.TextView{4a9370ac V.ED.... ........ 8,8-243,41 #7f0a0018 app:id/Code}
+                      android.widget.TextView{4a9372b0 V.ED..C. ........ 243,8-478,41 #7f0a0075 app:id/PurchaseNO}
+                      android.widget.TextView{4a9374b4 V.ED.... ........ 478,8-712,41 #7f0a0076 app:id/CustGoodsName}
+                  android.widget.LinearLayout{4a937e5c V.E..... ........ 0,198-720,263 #7f0a0035 app:id/instock_lin}
+                    android.widget.LinearLayout{4a937f9c V.E..... ........ 0,8-720,57}
+                      android.widget.TextView{4a9381b0 V.ED.... ........ 8,8-243,41 #7f0a0018 app:id/Code}
+                      android.widget.TextView{4a9383b4 V.ED..C. ........ 243,8-478,41 #7f0a0075 app:id/PurchaseNO}
+                      android.widget.TextView{4a9385b8 V.ED.... ........ 478,8-712,41 #7f0a0076 app:id/CustGoodsName}
+                  android.widget.LinearLayout{4a938f60 V.E..... ........ 0,264-720,329 #7f0a0035 app:id/instock_lin}
+                    android.widget.LinearLayout{4a9390a0 V.E..... ........ 0,8-720,57}
+                      android.widget.TextView{4a9392b4 V.ED.... ........ 8,8-243,41 #7f0a0018 app:id/Code}
+                      android.widget.TextView{4a9394b8 V.ED..C. ........ 243,8-478,41 #7f0a0075 app:id/PurchaseNO}
+                      android.widget.TextView{4a9396bc V.ED.... ........ 478,8-712,41 #7f0a0076 app:id/CustGoodsName}
+                  android.widget.LinearLayout{4a93a090 V.E..... ........ 0,330-720,395 #7f0a0035 app:id/instock_lin}
+                    android.widget.LinearLayout{4a93a1d0 V.E..... ........ 0,8-720,57}
+                      android.widget.TextView{4a93a3e4 V.ED.... ........ 8,8-243,41 #7f0a0018 app:id/Code}
+                      android.widget.TextView{4a93a5e8 V.ED..C. ........ 243,8-478,41 #7f0a0075 app:id/PurchaseNO}
+                      android.widget.TextView{4a93a7ec V.ED.... ........ 478,8-712,41 #7f0a0076 app:id/CustGoodsName}
+                  android.widget.LinearLayout{4a93b194 V.E..... ........ 0,396-720,461 #7f0a0035 app:id/instock_lin}
+                    android.widget.LinearLayout{4a93b2d4 V.E..... ........ 0,8-720,57}
+                      android.widget.TextView{4a93b4e8 V.ED.... ........ 8,8-243,41 #7f0a0018 app:id/Code}
+                      android.widget.TextView{4a93b6ec V.ED..C. ........ 243,8-478,41 #7f0a0075 app:id/PurchaseNO}
+                      android.widget.TextView{4a93b8f0 V.ED.... ........ 478,8-712,41 #7f0a0076 app:id/CustGoodsName}
+                  android.widget.LinearLayout{4a93c2d8 V.E..... ........ 0,462-720,527 #7f0a0035 app:id/instock_lin}
+                    android.widget.LinearLayout{4a93c418 V.E..... ........ 0,8-720,57}
+                      android.widget.TextView{4a93c62c V.ED.... ........ 8,8-243,41 #7f0a0018 app:id/Code}
+                      android.widget.TextView{4a93c830 V.ED..C. ........ 243,8-478,41 #7f0a0075 app:id/PurchaseNO}
+                      android.widget.TextView{4a93ca34 V.ED.... ........ 478,8-712,41 #7f0a0076 app:id/CustGoodsName}
+                  android.widget.LinearLayout{4a93d3dc V.E..... ........ 0,528-720,593 #7f0a0035 app:id/instock_lin}
+                    android.widget.LinearLayout{4a93d51c V.E..... ........ 0,8-720,57}
+                      android.widget.TextView{4a931db8 V.ED.... ........ 8,8-243,41 #7f0a0018 app:id/Code}
+                      android.widget.TextView{4a935298 V.ED..C. ........ 243,8-478,41 #7f0a0075 app:id/PurchaseNO}
+                      android.widget.TextView{4a8c9678 V.ED.... ........ 478,8-712,41 #7f0a0076 app:id/CustGoodsName}
+                  android.widget.LinearLayout{4a8c97d0 V.E..... ........ 0,594-720,659 #7f0a0035 app:id/instock_lin}
+                    android.widget.LinearLayout{4a906060 V.E..... ........ 0,8-720,57}
+                      android.widget.TextView{4a906180 V.ED.... ........ 8,8-243,41 #7f0a0018 app:id/Code}
+                      android.widget.TextView{4a8c2c3c V.ED..C. ........ 243,8-478,41 #7f0a0075 app:id/PurchaseNO}
+                      android.widget.TextView{4a8c2d94 V.ED.... ........ 478,8-712,41 #7f0a0076 app:id/CustGoodsName}
+                android.widget.LinearLayout{4a9313bc G.E..... ......I. 0,0-0,0}
+                  android.widget.ImageView{4a9314dc V.ED.... ......I. 0,0-0,0 #7f0a00c1 app:id/iv_normal_refresh_footer_chrysanthemum}
+                  android.widget.TextView{4a931828 V.ED.... ......ID 0,0-0,0 #7f0a00c2 app:id/tv_normal_refresh_footer_status}
+    Looper (main, tid 1) {4a7fbca4}
+      Message 0: { when=+50ms what=2 arg1=1 obj=android.graphics.drawable.AnimationDrawable@4a8eb098 target=android.view.Choreographer$FrameHandler }
+      Message 1: { when=+59ms callback=android.graphics.drawable.AnimationDrawable target=android.view.ViewRootImpl$ViewRootHandler }
+      Message 2: { when=+354ms callback=android.widget.Editor$Blink target=android.widget.Editor$Blink }
+      (Total messages: 3, idling=false, quitting=false)
+
+  ACTIVITY com.wms.newwmsapp/.activity.MainActivity 4a8cdfcc pid=10770
+    Local Activity 4a805510 State:
+      mResumed=false mStopped=true mFinished=false
+      mLoadersStarted=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 310mcc260mnc zh_CN ldltr sw480dp w480dp h828dp 240dpi lrg long port finger qwerty/v/v dpad/v s.6}
+    FragmentManager misc state:
+      mActivity=com.wms.newwmsapp.activity.MainActivity@4a805510
+      mContainer=android.app.Activity$1@4a8055fc
+      mCurState=3 mStateSaved=true mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=6138566 (46 ms ago)
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{4a806580 I.E..... R....... 0,0-720,1280}
+        android.widget.LinearLayout{4a806d6c V.E..... ........ 0,0-720,1280}
+          android.view.ViewStub{4a808250 G.E..... ......I. 0,0-0,0 #102030e}
+          android.widget.FrameLayout{4a808458 V.E..... ........ 0,0-720,1280 #1020002 android:id/content}
+            android.widget.RelativeLayout{4a80891c V.E..... ........ 0,0-720,1280}
+              android.support.v4.widget.DrawerLayout{4a8094c0 VFE..... .F...... 0,0-720,1280 #7f0a0013 app:id/drawer_layout}
+                android.widget.ScrollView{4a82e828 VFED.V.. ........ 0,0-720,1280}
+                  android.widget.LinearLayout{4a82bfc4 V.E..... ........ 0,0-720,839}
+                    android.widget.RelativeLayout{4a804b58 V.E..... ........ 0,0-720,75}
+                      android.widget.TextView{4a829550 V.ED.... ........ 330,8-390,67}
+                    android.widget.LinearLayout{4a82d514 V.E..... ........ 0,75-720,839}
+                      android.widget.LinearLayout{4a82da18 V.E..... ........ 15,15-705,116}
+                        android.widget.LinearLayout{4a808070 V.E...C. ........ 0,0-337,101 #7f0a0035 app:id/instock_lin}
+                          android.widget.ImageView{4a801718 V.ED.... ........ 84,34-116,66}
+                          android.widget.TextView{4a82a528 V.ED.... ........ 132,30-252,71}
+                        android.widget.LinearLayout{4a80360c V.E...C. ........ 353,0-690,101 #7f0a0036 app:id/up_lin}
+                          android.widget.ImageView{4a82e590 V.ED.... ........ 84,34-116,66}
+                          android.widget.TextView{4a82ab84 V.ED.... ........ 132,30-252,71}
+                      android.widget.LinearLayout{4a803944 V.E..... ........ 15,139-705,240}
+                        android.widget.LinearLayout{4a803cc8 V.E...C. ........ 8,0-345,101 #7f0a0037 app:id/pickup_lin_main}
+                          android.widget.ImageView{4a804674 V.ED.... ........ 84,34-116,66}
+                          android.widget.TextView{4a82bcd0 V.ED.... ........ 132,30-252,71}
+                        android.widget.LinearLayout{4a802928 V.E...C. ........ 353,0-690,101 #7f0a0038 app:id/outstockconfirm_lin}
+                          android.widget.ImageView{4a800c84 V.ED.... ........ 84,34-116,66}
+                          android.widget.TextView{4a803124 V.ED.... ........ 132,30-252,71}
+                      android.widget.LinearLayout{4a82c27c V.E..... ........ 15,263-705,364}
+                        android.widget.LinearLayout{4a8018a0 V.E...C. ........ 8,0-345,92 #7f0a0039 app:id/batchPickupconfirm_lin}
+                          android.widget.ImageView{4a829f20 V.ED.... ........ 75,30-107,62}
+                          android.widget.TextView{4a82939c V.ED.... ........ 123,30-261,62}
+                        android.widget.LinearLayout{4a7ffa24 V.E...C. ........ 353,0-690,101 #7f0a003a app:id/seeding_lin}
+                          android.widget.ImageView{4a8041bc V.ED.... ........ 114,34-146,66}
+                          android.widget.TextView{4a82c41c V.ED.... ........ 162,30-222,71}
+                      android.widget.LinearLayout{4a8005cc V.E..... ........ 15,387-705,488}
+                        android.widget.LinearLayout{4a80136c V.E...C. ........ 8,0-345,92 #7f0a003b app:id/seedingPickupconfirm_lin}
+                          android.widget.ImageView{4a82b514 V.ED.... ........ 75,30-107,62}
+                          android.widget.TextView{4a8092f4 V.ED.... ........ 123,30-261,62}
+                        android.widget.LinearLayout{4a82b720 V.E...C. ........ 353,0-690,101 #7f0a003c app:id/PDAPickupconfirm_lin}
+                          android.widget.ImageView{4a8000c8 V.ED.... ........ 84,34-116,66}
+                          android.widget.TextView{4a82c5d8 V.ED.... ........ 132,30-252,71}
+                      android.widget.LinearLayout{4a7ff290 V.E..... ........ 15,511-705,612}
+                        android.widget.LinearLayout{4a809114 V.E...C. ........ 8,0-345,101 #7f0a003d app:id/StockInSearch_lin}
+                          android.widget.ImageView{4a80074c V.ED.... ........ 84,34-116,66}
+                          android.widget.TextView{4a82a118 V.ED.... ........ 132,30-252,71}
+                        android.widget.LinearLayout{4a82df44 V.E...C. ........ 353,0-690,101 #7f0a003e app:id/StockCheckTaskByUserCode_lin}
+                          android.widget.ImageView{4a82c7a8 V.ED.... ........ 84,34-116,66}
+                          android.widget.TextView{4a82b8e4 V.ED.... ........ 132,30-252,71}
+                      android.widget.LinearLayout{4a82baf4 V.E..... ........ 8,620-720,764 #7f0a003f app:id/ss}
+                android.widget.LinearLayout{4a7fe5ec I.E..... ......ID 720,0-1170,1280 #7f0a0017 app:id/filter_layout}
+                  android.widget.LinearLayout{4a829d18 V.E..... ......ID 0,0-450,1280}
+                    android.widget.TextView{4a82cbb4 V.ED.... ........ 0,0-450,75}
+                    android.widget.LinearLayout{4a7fe0b0 V.E..... ......ID 0,83-450,1280}
+                      android.widget.LinearLayout{4a82cdd8 V.E..... ......ID 0,0-135,1197}
+                        android.view.View{4a8b0300 V.ED.... ........ 0,0-135,2}
+                        android.widget.ListView{4a8b0568 VFED..C. ......ID 0,2-135,1197 #7f0a0040 app:id/stockCode_list}
+                          android.widget.LinearLayout{4a90e5d0 V.E..... ......I. 0,0-135,90}
+                            android.widget.TextView{4a90e758 V.ED.... ........ 0,0-135,90 #7f0a008c app:id/stockname}
+                          android.widget.LinearLayout{4a90ec04 V.E..... ......I. 0,91-135,181}
+                            android.widget.TextView{4a90ed4c V.ED.... ........ 0,0-135,90 #7f0a008c app:id/stockname}
+                          android.widget.LinearLayout{4a90f158 V.E..... ......I. 0,182-135,272}
+                            android.widget.TextView{4a90f2a0 V.ED.... ........ 0,0-135,90 #7f0a008c app:id/stockname}
+                          android.widget.LinearLayout{4a90f6ac V.E..... ......I. 0,273-135,363}
+                            android.widget.TextView{4a8b66f0 V.ED.... ........ 0,0-135,90 #7f0a008c app:id/stockname}
+                          android.widget.LinearLayout{4a8c3894 V.E..... ......I. 0,364-135,454}
+                            android.widget.TextView{4a90cfb4 V.ED.... ........ 0,0-135,90 #7f0a008c app:id/stockname}
+                          android.widget.LinearLayout{4a8c7ef8 V.E..... ......I. 0,455-135,545}
+                            android.widget.TextView{4a8c6738 V.ED.... ........ 0,0-135,90 #7f0a008c app:id/stockname}
+                          android.widget.LinearLayout{4a8c9554 V.E..... ......I. 0,546-135,636}
+                            android.widget.TextView{4a8c68ec V.ED.... ........ 0,0-135,90 #7f0a008c app:id/stockname}
+                          android.widget.LinearLayout{4a8c54bc V.E..... ......I. 0,637-135,727}
+                            android.widget.TextView{4a8cb738 V.ED.... ........ 0,0-135,90 #7f0a008c app:id/stockname}
+                      android.widget.LinearLayout{4a8b0cc0 V.E..... ........ 135,0-450,1197}
+                        android.view.View{4a8b0ea0 V.ED.... ........ 0,0-315,2}
+                        android.view.View{4a8b1014 V.ED.... ........ 0,2-315,4}
+                        android.widget.LinearLayout{4a8b1188 V.E..... ........ 0,4-315,72}
+                          android.widget.ImageView{4a8b12f0 V.ED.... ........ 8,29-18,39}
+                          android.widget.TextView{4a8b1cfc V.ED.... ........ 39,20-74,47 #7f0a0041 app:id/stock_tv}
+                        android.view.View{4a8b1f54 V.ED.... ........ 0,72-315,74}
+                        android.widget.GridView{4a8b2178 VFED..C. ........ 8,82-307,1189 #7f0a0042 app:id/custGoodModel_grid}
+                          android.widget.LinearLayout{4a8babe4 V.E..... ........ 0,0-89,120}
+                            android.widget.ImageView{4a8bad80 V.ED.... ........ 7,0-82,75}
+                            android.widget.TextView{4a9013f0 V.ED.... ........ 25,83-64,112 #7f0a0071 app:id/custgoodname}
+                          android.widget.LinearLayout{4a8fe7b8 V.E..... ........ 104,0-193,120}
+                            android.widget.ImageView{4a8c4ac4 V.ED.... ........ 7,0-82,75}
+                            android.widget.TextView{4a90d340 V.ED.... ........ 18,83-70,112 #7f0a0071 app:id/custgoodname}
+              android.widget.TextView{4a8003e0 V.ED..C. ........ 615,1175-690,1250 #7f0a0043 app:id/person}
+    Looper (main, tid 1) {4a7fbca4}
+      Message 0: { when=+42ms what=2 arg1=1 obj=android.graphics.drawable.AnimationDrawable@4a8eb098 target=android.view.Choreographer$FrameHandler }
+      Message 1: { when=+51ms callback=android.graphics.drawable.AnimationDrawable target=android.view.ViewRootImpl$ViewRootHandler }
+      Message 2: { when=+346ms callback=android.widget.Editor$Blink target=android.widget.Editor$Blink }
+      (Total messages: 3, idling=false, quitting=false)

@@ -1,0 +1,432 @@
+-- Merging decision tree log ---
+manifest
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:2:1-207:12
+	package
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from G:\Wms.App_two\app\src\main\AndroidManifest.xml
+		INJECTED from G:\Wms.App_two\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:5:5-32
+		INJECTED from G:\Wms.App_two\app\src\main\AndroidManifest.xml
+		INJECTED from G:\Wms.App_two\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from G:\Wms.App_two\app\src\main\AndroidManifest.xml
+		INJECTED from G:\Wms.App_two\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:8:5-71
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:8:22-68
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:11:5-76
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:11:22-73
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:13:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:14:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:15:5-84
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:15:22-81
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:18:5-80
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:18:22-77
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:20:5-73
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:20:22-70
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:22:5-80
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:22:22-77
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:24:5-76
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:24:22-73
+uses-sdk
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:26:5-28:41
+MERGED from [cn.bingoogolapple:bga-refreshlayout:1.0.7] C:\Users\cheng\.android\build-cache\a785ecb6868baa47c37e3879cb384ca920dbe980\output\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:recyclerview-v7:21.0.3] C:\Users\cheng\.android\build-cache\0f30c5e61ccb0883680ad44c06203babaa5b78c6\output\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\cheng\.android\build-cache\28946d7fcb130c0ead282f89092fe879a0970f9a\output\AndroidManifest.xml:15:5-42
+	android:targetSdkVersion
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:28:9-38
+		INJECTED from G:\Wms.App_two\app\src\main\AndroidManifest.xml
+		INJECTED from G:\Wms.App_two\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:27:9-35
+		INJECTED from G:\Wms.App_two\app\src\main\AndroidManifest.xml
+		INJECTED from G:\Wms.App_two\app\src\main\AndroidManifest.xml
+application
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:30:5-205:19
+MERGED from [com.android.support:recyclerview-v7:21.0.3] C:\Users\cheng\.android\build-cache\0f30c5e61ccb0883680ad44c06203babaa5b78c6\output\AndroidManifest.xml:17:5-19:19
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\cheng\.android\build-cache\28946d7fcb130c0ead282f89092fe879a0970f9a\output\AndroidManifest.xml:16:5-19
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:34:9-41
+	android:allowBackup
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:32:9-35
+	android:icon
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:33:9-45
+	android:theme
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:35:9-40
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:31:9-67
+activity#com.wms.newwmsapp.base.BaseActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:36:9-39:52
+	android:screenOrientation
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:39:13-49
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:38:13-45
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:37:13-63
+activity#com.wms.newwmsapp.base.BaseScanActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:40:9-43:52
+	android:screenOrientation
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:43:13-49
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:42:13-45
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:41:13-67
+activity#com.wms.newwmsapp.activity.MainActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:44:9-54:20
+	android:screenOrientation
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:47:13-49
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:46:13-45
+	android:theme
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:48:13-61
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:45:13-67
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:49:13-53:29
+action#android.intent.action.MAIN
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:50:17-69
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:50:25-66
+category#android.intent.category.LAUNCHER
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:52:17-77
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:52:27-74
+activity#com.wms.newwmsapp.activity.LoginActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:55:9-59:75
+	android:screenOrientation
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:58:13-49
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:57:13-45
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:59:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:56:13-68
+activity#com.wms.newwmsapp.activity.InstockListActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:60:9-64:75
+	android:screenOrientation
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:63:13-49
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:62:13-45
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:64:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:61:13-74
+activity#com.wms.newwmsapp.activity.InstockDetailActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:65:9-69:75
+	android:screenOrientation
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:68:13-49
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:67:13-45
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:69:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:66:13-76
+activity#com.wms.newwmsapp.activity.UpListActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:71:9-75:75
+	android:screenOrientation
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:74:13-49
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:73:13-45
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:75:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:72:13-69
+activity#com.wms.newwmsapp.activity.UpDetailActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:76:9-80:75
+	android:screenOrientation
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:79:13-49
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:78:13-45
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:80:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:77:13-71
+activity#com.wms.newwmsapp.activity.PickUpConfirmActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:81:9-84:84
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:83:13-67
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:84:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:82:13-76
+activity#com.wms.newwmsapp.activity.PickUpConfirmDetailActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:85:9-88:84
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:87:13-74
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:88:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:86:13-82
+activity#com.wms.newwmsapp.activity.OutStockConfirmActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:89:9-92:84
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:91:13-69
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:92:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:90:13-78
+activity#com.wms.newwmsapp.activity.OutStockConfirmDetailActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:93:9-96:84
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:95:13-76
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:96:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:94:13-84
+activity#com.wms.newwmsapp.activity.BatchPickupConfirmActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:97:9-100:84
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:99:13-72
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:100:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:98:13-81
+activity#com.wms.newwmsapp.activity.BatchPickupDetailActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:101:9-104:84
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:103:13-71
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:104:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:102:13-80
+activity#com.wms.newwmsapp.activity.SeedingActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:105:9-108:84
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:107:13-59
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:108:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:106:13-70
+activity#com.wms.newwmsapp.activity.SeedingDetailActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:109:9-112:84
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:111:13-66
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:112:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:110:13-76
+activity#com.wms.newwmsapp.activity.BatchTaskActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:113:9-116:84
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:115:13-46
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:116:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:114:13-72
+activity#com.wms.newwmsapp.activity.TaskDetailActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:117:9-120:84
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:119:13-47
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:120:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:118:13-73
+activity#com.wms.newwmsapp.activity.PDAOutStockConfirmActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:121:9-124:84
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:123:13-72
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:124:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:122:13-81
+activity#com.wms.newwmsapp.activity.OutStockHaveBarCodeActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:125:9-128:84
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:127:13-75
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:128:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:126:13-82
+activity#com.wms.newwmsapp.activity.SeedingPickupConfimActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:129:9-132:84
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:131:13-74
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:132:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:130:13-82
+activity#com.wms.newwmsapp.activity.SeedingPickupDetailActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:133:9-136:84
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:135:13-73
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:136:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:134:13-82
+activity#com.wms.newwmsapp.activity.StockInSearchActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:137:9-140:84
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:139:13-67
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:140:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:138:13-76
+activity#com.wms.newwmsapp.activity.StockCheckTaskActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:141:9-144:84
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:143:13-68
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:144:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:142:13-77
+activity#com.wms.newwmsapp.activity.StockTaskDetailActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:145:9-148:84
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:147:13-69
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:148:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:146:13-78
+activity#com.wms.newwmsapp.activity.AddNewStockTaskActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:149:9-152:84
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:151:13-65
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:152:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:150:13-78
+activity#com.wms.newwmsapp.activity.SeedingOtherActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:153:9-156:84
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:155:13-65
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:156:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:154:13-75
+activity#com.wms.newwmsapp.activity.SeedingOtherDetailActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:157:9-160:84
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:159:13-55
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:160:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:158:13-81
+activity#com.wms.newwmsapp.activity.SeedingLastActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:161:9-164:84
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:163:13-48
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:164:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:162:13-74
+activity#com.wms.newwmsapp.activity.PickUpOtherActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:165:9-168:84
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:167:13-48
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:168:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:166:13-74
+activity#com.wms.newwmsapp.activity.ZhuancangToCarActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:169:9-172:84
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:171:13-51
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:172:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:170:13-77
+activity#com.wms.newwmsapp.activity.FinishToCarActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:173:9-176:84
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:175:13-48
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:176:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:174:13-74
+activity#com.wms.newwmsapp.activity.BatchPickupOtherActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:177:9-180:84
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:179:13-53
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:180:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:178:13-79
+activity#com.wms.newwmsapp.activity.DownToOtherActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:181:9-184:84
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:183:13-48
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:184:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:182:13-74
+activity#com.wms.newwmsapp.activity.PostDownToOtherActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:185:9-188:84
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:187:13-52
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:188:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:186:13-78
+activity#com.wms.newwmsapp.activity.HasDownListActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:189:9-192:84
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:191:13-48
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:192:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:190:13-74
+activity#com.wms.newwmsapp.activity.UpToOtherActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:193:9-196:84
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:195:13-46
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:196:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:194:13-72
+activity#com.wms.newwmsapp.activity.UpToOtherDetailActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:197:9-200:84
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:199:13-52
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:200:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:198:13-78
+activity#com.wms.newwmsapp.activity.HasUpListActivity
+ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:201:9-204:84
+	android:label
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:203:13-46
+	android:windowSoftInputMode
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:204:13-72
+	android:name
+		ADDED from G:\Wms.App_two\app\src\main\AndroidManifest.xml:202:13-72
+activity#android.support.v7.widget.TestActivity
+ADDED from [com.android.support:recyclerview-v7:21.0.3] C:\Users\cheng\.android\build-cache\0f30c5e61ccb0883680ad44c06203babaa5b78c6\output\AndroidManifest.xml:18:9-115
+	android:label
+		ADDED from [com.android.support:recyclerview-v7:21.0.3] C:\Users\cheng\.android\build-cache\0f30c5e61ccb0883680ad44c06203babaa5b78c6\output\AndroidManifest.xml:18:19-59
+	android:name
+		ADDED from [com.android.support:recyclerview-v7:21.0.3] C:\Users\cheng\.android\build-cache\0f30c5e61ccb0883680ad44c06203babaa5b78c6\output\AndroidManifest.xml:18:60-113

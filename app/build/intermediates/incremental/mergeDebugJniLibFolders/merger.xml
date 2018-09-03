@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="G:\Wms.App_two\Wms.App_two\app\src\main\jniLibs"><file name="armeabi/libBDTTSDecoder_V1.so" path="G:\Wms.App_two\Wms.App_two\app\src\main\jniLibs\armeabi\libBDTTSDecoder_V1.so"/><file name="armeabi-v7a/libBDTTSDecoder_V1.so" path="G:\Wms.App_two\Wms.App_two\app\src\main\jniLibs\armeabi-v7a\libBDTTSDecoder_V1.so"/></source></dataSet><dataSet config="debug"><source path="G:\Wms.App_two\Wms.App_two\app\src\debug\jniLibs"/></dataSet></merger>

@@ -1,0 +1,132 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StockInSearchActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/title_bar_bg" >
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/arrow_common_left" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="库内查询"
+                android:textColor="#FFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:textColor="#FFF"
+                android:textSize="16sp"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="15dp" >
+
+                <EditText
+                    android:id="@+id/txt_GoodsPosName"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/button_check"
+                    android:background="@drawable/pick_editetext_bg"
+                    android:gravity="center"
+                    android:paddingLeft="2dp"
+                    android:singleLine="true"
+                    android:hint="请输入货位"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/button_check"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:layout_alignBottom="@+id/PurchaseNo_pick"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@+id/PurchaseNo_pick"
+                    android:background="@drawable/selector_button"
+                    android:gravity="center"
+                    android:text="查  询"
+                    android:textColor="#FFF"
+                    android:textSize="16dp" />
+
+            </RelativeLayout>
+
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <com.handmark.pulltorefresh.library.view.PullToRefreshListView
+                android:id="@+id/StockInSearchList_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="0.50"
+                android:divider="#DFDFDD"
+                android:dividerHeight="1dp"
+                android:listSelector="@null"
+                android:scrollbars="none" >
+            </com.handmark.pulltorefresh.library.view.PullToRefreshListView>
+              <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/picklist_linearlayout_bg"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/Information"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="#FFC54646" />
+    </LinearLayout>
+        </LinearLayout>
+ 
+    </LinearLayout>
+
+</RelativeLayout>

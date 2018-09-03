@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/title_bar_bg"
+        android:gravity="center"
+        android:text="请扫描要修改的货位"
+        android:textColor="#FFF"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp" >
+
+            <Button
+                android:id="@+id/CustomerName_btn"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/selector_button"
+                android:gravity="center"
+                android:text="确定"
+                android:textColor="#FFF"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/CustomerName_et"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@id/CustomerName_btn"
+                android:background="@drawable/pick_editetext_bg"
+                android:gravity="center"
+                android:hint="请输入货位名称"
+                android:paddingLeft="2dp"
+                android:singleLine="true"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp" >
+
+            <Button
+                android:id="@+id/Loc_Num_btn"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/selector_button"
+                android:gravity="center"
+                android:text="确定"
+                android:textColor="#FFF"
+                android:textSize="14sp" />
+            <EditText
+                android:id="@+id/Loc_Num_et"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@id/Loc_Num_btn"
+                android:background="@drawable/pick_editetext_bg"
+                android:gravity="center"
+                android:hint="请输入数量"
+                android:paddingLeft="2dp"
+                android:singleLine="true"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,938 @@
+[
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_check_task.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_stock_check_task.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_pickup_goodspos_item.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_pickup_goodspos_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_batch_pickup_detail.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_batch_pickup_detail.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\timepicker.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\timepicker.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_showtimedialog.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\dialog_showtimedialog.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_show_more_menu.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\pop_show_more_menu.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seeding.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_seeding.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seeding_other.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_seeding_other.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_post_down_to_other.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_post_down_to_other.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_out_stock_have_bar_code.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_out_stock_have_bar_code.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_showdialog.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\dialog_showdialog.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_batch_task_detail.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_batch_task_detail.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_batch_pickup_detail.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_batch_pickup_detail.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_showchoosedialog.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\dialog_showchoosedialog.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_uplist.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_uplist.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_refresh_header_stickiness.xml",
+        "source": "C:\\Users\\cheng\\.android\\build-cache\\a785ecb6868baa47c37e3879cb384ca920dbe980\\output\\res\\layout\\view_refresh_header_stickiness.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_select_package.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\pop_select_package.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_pickup_detail_item.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_pickup_detail_item.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_batch_pickup_confirm.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_batch_pickup_confirm.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_instockdetail.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\dialog_instockdetail.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_pickup_detail_item.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_pickup_detail_item.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_detail.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_task_detail.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_unit_item.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_unit_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\progressdialog.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\progressdialog.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search_code.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_search_code.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_wavepickup_confirm.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_wavepickup_confirm.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_pickup_goodspos_item.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_pickup_goodspos_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_instockputawaystatus_item.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_instockputawaystatus_item.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search_code.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_search_code.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_batch_task_detail.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_batch_task_detail.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_instock_item.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_instock_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_other_detail.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\view_other_detail.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_instcokdetailsubmit.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\dialog_instcokdetailsubmit.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_quality_item.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_quality_item.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_updetail_item.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_updetail_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_out_stock_have_bar_code.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_out_stock_have_bar_code.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_up_item.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_up_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_stockcode_item.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_stockcode_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_instock_item.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_instock_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_out_stock_confirm.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_out_stock_confirm.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_customercode.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\dialog_customercode.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pick_up_confirm_detail.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_pick_up_confirm_detail.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_instockputawaystatus_item.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_instockputawaystatus_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_batch_pickup_detail.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_batch_pickup_detail.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_pickup_custgoods_item.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_pickup_custgoods_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\timepicker.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\timepicker.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_pickup_custgoods_item.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_pickup_custgoods_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_post_down_to_other.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_post_down_to_other.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_instocklist.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_instocklist.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\progressdialog.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\progressdialog.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_goodspos_item.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_goodspos_item.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_blank_ll.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\layout_blank_ll.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\add_item_show.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\add_item_show.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_goodspos_item.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_goodspos_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seeding_detail.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_seeding_detail.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_has_down_list.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_has_down_list.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_show_more_menu.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\pop_show_more_menu.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_finish_to_car.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\item_finish_to_car.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_showedittext.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\dialog_showedittext.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_person.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\dialog_person.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_stockcheck_lin.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_stockcheck_lin.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_refresh_header_mooc_style.xml",
+        "source": "C:\\Users\\cheng\\.android\\build-cache\\a785ecb6868baa47c37e3879cb384ca920dbe980\\output\\res\\layout\\view_refresh_header_mooc_style.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seeding_detail.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_seeding_detail.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_instockdetail.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\dialog_instockdetail.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_stock_task.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\item_stock_task.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_pickup_detail_item.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_pickup_detail_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pdaout_stock_confirm.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_pdaout_stock_confirm.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_stockinsearch.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_stockinsearch.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seeding_last.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_seeding_last.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_batch_task.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_batch_task.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_out_stock_confirm_detail.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_out_stock_confirm_detail.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_refresh_header_stickiness.xml",
+        "source": "G:\\Users\\qupengcheng\\.android\\build-cache\\0fa64e90fad93f8fdcba09a44f93e0ad971214ad\\output\\res\\layout\\view_refresh_header_stickiness.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_batch_task.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_batch_task.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_outstockconfirm_item.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_outstockconfirm_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_pickupconfirm.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_pickupconfirm.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_normal_refresh_footer.xml",
+        "source": "C:\\Users\\cheng\\.android\\build-cache\\a785ecb6868baa47c37e3879cb384ca920dbe980\\output\\res\\layout\\view_normal_refresh_footer.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seeding_pickup_detail.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_seeding_pickup_detail.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_stockcode_item.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_stockcode_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_down_to_other.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\item_down_to_other.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_outstockconfirmdetail_item.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_outstockconfirmdetail_item.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_custgood_item.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_custgood_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_outstockconfirm_item.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_outstockconfirm_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seeding_pickup_confirm.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_seeding_pickup_confirm.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_out_stock_have_bar_code.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_out_stock_have_bar_code.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_customercode.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\dialog_customercode.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_in_search.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_stock_in_search.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_down_to_other.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\item_down_to_other.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_finish_to_car.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\item_finish_to_car.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seeding_other_detail.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_seeding_other_detail.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_detail.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_task_detail.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_stockinsearch.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_stockinsearch.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_stockcheck_lin.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_stockcheck_lin.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_instockdetail.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_instockdetail.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_check_task.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_stock_check_task.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_person.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\dialog_person.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_pickupconfirm.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_pickupconfirm.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_instock_item.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_instock_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_post_down_to_other.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_post_down_to_other.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_out_stock_confirm_detail.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_out_stock_confirm_detail.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pick_up_confirm_detail.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_pick_up_confirm_detail.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seeding_other.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_seeding_other.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_stockcode_item.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_stockcode_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_refresh_header_normal.xml",
+        "source": "C:\\Users\\cheng\\.android\\build-cache\\a785ecb6868baa47c37e3879cb384ca920dbe980\\output\\res\\layout\\view_refresh_header_normal.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_showtimedialog.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\dialog_showtimedialog.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_updetail.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_updetail.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_instockdetail_item.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_instockdetail_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_stock_task.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\item_stock_task.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_instockdetail_item.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_instockdetail_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_quality_item.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_quality_item.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_select_package.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\pop_select_package.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_updetail.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\dialog_updetail.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_in_search.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_stock_in_search.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_custgood_item.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_custgood_item.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_refresh_header_normal.xml",
+        "source": "G:\\Users\\qupengcheng\\.android\\build-cache\\0fa64e90fad93f8fdcba09a44f93e0ad971214ad\\output\\res\\layout\\view_refresh_header_normal.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_other_detail.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\view_other_detail.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_stock_check_adapter.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\item_stock_check_adapter.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_showedittext.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\dialog_showedittext.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_showchoosedialog.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\dialog_showchoosedialog.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_normal_refresh_footer.xml",
+        "source": "G:\\Users\\qupengcheng\\.android\\build-cache\\0fa64e90fad93f8fdcba09a44f93e0ad971214ad\\output\\res\\layout\\view_normal_refresh_footer.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_showedittext.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\dialog_showedittext.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_instockdetail_item.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_instockdetail_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_custgood_item.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_custgood_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_stock_check_adapter.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\item_stock_check_adapter.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_uplist.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_uplist.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_batch_pickup_detail.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_batch_pickup_detail.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seeding_pickup_confirm.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_seeding_pickup_confirm.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_batch_pickup_detail.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_batch_pickup_detail.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seeding_detail.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_seeding_detail.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_normal_refresh_footer.xml",
+        "source": "C:\\Users\\cheng\\.android\\build-cache\\a785ecb6868baa47c37e3879cb384ca920dbe980\\output\\res\\layout\\view_normal_refresh_footer.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_down_to_other.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\item_down_to_other.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_unit_item.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_unit_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_outstockconfirmdetail_item.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_outstockconfirmdetail_item.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_goodspos_item.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_goodspos_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pick_up_confirm.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_pick_up_confirm.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pick_up_confirm.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_pick_up_confirm.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_instocklist.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_instocklist.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_up_item.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_up_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_show_more_menu.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\pop_show_more_menu.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_stockcheck_lin.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_stockcheck_lin.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_finish_to_car.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\item_finish_to_car.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_showdialog.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\dialog_showdialog.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_finish_to_car.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_finish_to_car.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\timepicker.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\timepicker.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_stock_check_adapter.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\item_stock_check_adapter.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\progressdialog.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\progressdialog.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_out_stock_confirm_detail.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_out_stock_confirm_detail.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_has_down_list.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_has_down_list.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search_code.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_search_code.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_batch_pickup_detail.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_batch_pickup_detail.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seeding_pickup_confirm.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_seeding_pickup_confirm.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pick_up_confirm_detail.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_pick_up_confirm_detail.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_post_upto_other.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_post_upto_other.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_blank_ll.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\layout_blank_ll.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_instockdetail.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_instockdetail.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seeding_other_detail.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_seeding_other_detail.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_in_search.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_stock_in_search.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_refresh_header_normal.xml",
+        "source": "C:\\Users\\cheng\\.android\\build-cache\\a785ecb6868baa47c37e3879cb384ca920dbe980\\output\\res\\layout\\view_refresh_header_normal.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seeding_other_detail.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_seeding_other_detail.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pick_up_confirm.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_pick_up_confirm.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pdaout_stock_confirm.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_pdaout_stock_confirm.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_down_to_other.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_down_to_other.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_other_detail.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\view_other_detail.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pdaout_stock_confirm.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_pdaout_stock_confirm.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seeding_pickup_detail.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_seeding_pickup_detail.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_batch_task.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_batch_task.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_customercode.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\dialog_customercode.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_uplist.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_uplist.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seeding_last.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_seeding_last.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_outstockconfirm_item.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_outstockconfirm_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_select_package.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\pop_select_package.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seeding_other.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_seeding_other.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_refresh_header_stickiness.xml",
+        "source": "C:\\Users\\cheng\\.android\\build-cache\\a785ecb6868baa47c37e3879cb384ca920dbe980\\output\\res\\layout\\view_refresh_header_stickiness.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_instocklist.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_instocklist.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_pickup_custgoods_item.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_pickup_custgoods_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_updetail_item.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_updetail_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_updetail_item.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_updetail_item.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_instockdetail.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_instockdetail.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_wavepickup_confirm.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_wavepickup_confirm.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_refresh_header_mooc_style.xml",
+        "source": "C:\\Users\\cheng\\.android\\build-cache\\a785ecb6868baa47c37e3879cb384ca920dbe980\\output\\res\\layout\\view_refresh_header_mooc_style.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seeding.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_seeding.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_out_stock_confirm.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_out_stock_confirm.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_instcokdetailsubmit.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\dialog_instcokdetailsubmit.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_showchoosedialog.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\dialog_showchoosedialog.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_instockdetail.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\dialog_instockdetail.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_down_to_other.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_down_to_other.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\add_item_show.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\add_item_show.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_outstockconfirmdetail_item.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_outstockconfirmdetail_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_updetail.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\dialog_updetail.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_showtimedialog.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\dialog_showtimedialog.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_unit_item.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_unit_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_finish_to_car.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_finish_to_car.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_wavepickup_confirm.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_wavepickup_confirm.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_down_to_other.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_down_to_other.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_person.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\dialog_person.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_instcokdetailsubmit.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\dialog_instcokdetailsubmit.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_has_down_list.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_has_down_list.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_batch_task.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_batch_task.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_updetail.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_updetail.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_updetail.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\dialog_updetail.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_batch_pickup_confirm.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_batch_pickup_confirm.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_batch_pickup_confirm.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_batch_pickup_confirm.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seeding.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_seeding.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seeding_last.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_seeding_last.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_instockputawaystatus_item.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_instockputawaystatus_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_post_upto_other.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_post_upto_other.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_detail.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_task_detail.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_stock_task.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\item_stock_task.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_pickupconfirm.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_pickupconfirm.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_out_stock_confirm.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_out_stock_confirm.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_finish_to_car.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_finish_to_car.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_up_item.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_up_item.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_showdialog.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\dialog_showdialog.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_post_upto_other.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_post_upto_other.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_stockinsearch.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_stockinsearch.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_seeding_pickup_detail.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_seeding_pickup_detail.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_updetail.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_updetail.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_pickup_goodspos_item.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_pickup_goodspos_item.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_blank_ll.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\layout_blank_ll.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\add_item_show.xml",
+        "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\layout\\add_item_show.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_refresh_header_mooc_style.xml",
+        "source": "G:\\Users\\qupengcheng\\.android\\build-cache\\0fa64e90fad93f8fdcba09a44f93e0ad971214ad\\output\\res\\layout\\view_refresh_header_mooc_style.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_quality_item.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\adapter_quality_item.xml"
+    },
+    {
+        "merged": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "G:\\Users\\qupengcheng\\Desktop\\Wms.App_two\\app\\src\\main\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_check_task.xml",
+        "source": "G:\\Wms.App_two\\app\\src\\main\\res\\layout\\activity_stock_check_task.xml"
+    }
+]
