@@ -90,6 +90,15 @@ public class BatchTaskModel {
         private String CreateBy;
         private String UpdateDate;
         private String UpdateBy;
+        private String GoodsTypeNum;
+
+        public String getGoodsTypeNum() {
+            return GoodsTypeNum;
+        }
+
+        public void setGoodsTypeNum(String goodsTypeNum) {
+            GoodsTypeNum = goodsTypeNum;
+        }
 
         public String getWaveOutStockCode() {
             return WaveOutStockCode;

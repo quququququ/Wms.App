@@ -77,22 +77,30 @@ public class BatchTaskAdapter extends BaseAdapter {
 
         }
         final BatchTaskModel.DataBean dataBean = mData.get(position);
-        holder.tvOrderNo.setText("单          号："+dataBean.getCode().substring(dataBean.getCode().length()-4,dataBean.getCode().length()));
-        holder.tvOrderTime.setText("创建时间："+dataBean.getCreateDate().substring(5,10));
-        holder.tvOrderNum.setText("订单数量："+dataBean.getOutstockInformNum());
-        holder.tvGoodsNum.setText("商品数量：");
-        holder.tvOrderType.setText("类          型："+dataBean.getPickType());
+        holder.tvOrderNo.setText("单          号：" + dataBean.getCode().substring(dataBean.getCode().length() - 4, dataBean.getCode().length()));
+        holder.tvOrderTime.setText("创建时间：" + dataBean.getCreateDate().substring(5, 10));
+        holder.tvOrderNum.setText("订单数量：" + dataBean.getOutstockInformNum());
+        holder.tvGoodsNum.setText("商品数量：" + dataBean.getGoodsTypeNum());
+        String typeName = "";
+        if (dataBean.getPickType().equals("1")) {
+            typeName = "播种单";
+        } else if (dataBean.getPickType().equals("2")) {
+            typeName = "一单一件";
+        } else if (dataBean.getPickType().equals("3")) {
+            typeName = "爆品单";
+        }
+        holder.tvOrderType.setText("类          型：" + typeName);
         holder.llOrderItem.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(context, TaskDetailActivity.class);
-                intent.putExtra(TaskDetailActivity.CODE,dataBean.getCode());
-                intent.putExtra(TaskDetailActivity.ORDER_NUM,dataBean.getOutstockInformNum());
-                intent.putExtra(TaskDetailActivity.DIVIDER_NUM,"");
-                intent.putExtra(TaskDetailActivity.GOODS_TYPE,"");
-                intent.putExtra(TaskDetailActivity.TYPE,dataBean.getPickType());
-                intent.putExtra(TaskDetailActivity.EXPRESS,"");
-                intent.putExtra(TaskDetailActivity.CREAT_TIME,dataBean.getCreateDate().substring(5,10));
+                intent.putExtra(TaskDetailActivity.CODE, dataBean.getCode());
+                intent.putExtra(TaskDetailActivity.ORDER_NUM, dataBean.getOutstockInformNum());
+                intent.putExtra(TaskDetailActivity.DIVIDER_NUM, "");
+                intent.putExtra(TaskDetailActivity.GOODS_TYPE, dataBean.getGoodsTypeNum());
+                intent.putExtra(TaskDetailActivity.TYPE, dataBean.getPickType());
+                intent.putExtra(TaskDetailActivity.EXPRESS, "");
+                intent.putExtra(TaskDetailActivity.CREAT_TIME, dataBean.getCreateDate().substring(5, 10));
                 context.startActivity(intent);
             }
         });

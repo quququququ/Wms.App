@@ -86,6 +86,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:visibility="gone"
                 android:orientation="horizontal">
 
                 <TextView
@@ -139,6 +140,7 @@
 
         <LinearLayout
             android:id="@+id/ll_four"
+            android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/ll_three"

@@ -13,7 +13,6 @@ import com.wms.newwmsapp.R;
 import com.wms.newwmsapp.base.BaseActivity;
 import com.wms.newwmsapp.model.BaseModel;
 import com.wms.newwmsapp.tool.Constants;
-import com.wms.newwmsapp.tool.MyToast;
 import com.wms.newwmsapp.volley.Request;
 import com.wms.newwmsapp.volley.RequestQueue;
 import com.wms.newwmsapp.volley.Response;
@@ -41,6 +40,7 @@ public class TaskDetailActivity extends BaseActivity implements View.OnClickList
     private ImageView back;
     private String waveCode;
     private BaseModel baseModel;
+    private String typeName = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,6 +59,7 @@ public class TaskDetailActivity extends BaseActivity implements View.OnClickList
                 finish();
             }
         });
+
         tvOrderNo = (TextView) findViewById(R.id.tv_task_no);
         tvOrderNum = (TextView) findViewById(R.id.tv_order_num);
         tvFenjianNum = (TextView) findViewById(R.id.tv_fenjian_num);
@@ -70,7 +71,14 @@ public class TaskDetailActivity extends BaseActivity implements View.OnClickList
         tvOrderNum.setText(getIntent().getStringExtra(ORDER_NUM));
         tvFenjianNum.setText(getIntent().getStringExtra(DIVIDER_NUM));
         tvGoodsType.setText(getIntent().getStringExtra(GOODS_TYPE));
-        tvType.setText(getIntent().getStringExtra(TYPE));
+        if (getIntent().getStringExtra(TYPE).equals("1")) {
+            typeName = "播种单";
+        } else if (getIntent().getStringExtra(TYPE).equals("2")) {
+            typeName = "一单一件";
+        } else if (getIntent().getStringExtra(TYPE).equals("3")) {
+            typeName = "爆品单";
+        }
+        tvType.setText(typeName);
         tvExpress.setText(getIntent().getStringExtra(EXPRESS));
         tvOrderTime.setText(getIntent().getStringExtra(CREAT_TIME));
 
@@ -106,7 +114,7 @@ public class TaskDetailActivity extends BaseActivity implements View.OnClickList
         startProgressDialog("Loading...");
 
         JSONStringer jsonStr = new JSONStringer();
-        String url = Constants.url_WavePickClaim + "stockCode=" + preferences.getString("StockCode", "") + "&wavepickconfirmCode=" + waveCode + "userCode" + preferences.getString("code", "");
+        String url = Constants.url_WavePickClaim + "stockCode=" + preferences.getString("StockCode", "") + "&wavepickconfirmCode=" + waveCode + "&userCode=" + preferences.getString("code", "");
         RequestQueue mRequestQueue = Volley.newRequestQueue(TaskDetailActivity.this);
         JsonObjectRequest request = new JsonObjectRequest(
                 Request.Method.POST, url, jsonStr.toString(), new Response.Listener<JSONObject>() {
@@ -119,6 +127,7 @@ public class TaskDetailActivity extends BaseActivity implements View.OnClickList
                     if (baseModel.isIsSuccess()) {
                         Intent intent = new Intent(TaskDetailActivity.this,BatchPickupOtherActivity.class);
                         intent.putExtra("pickcode",waveCode);
+                        startActivity(intent);
                         finish();
                     } else {
                         Toast.makeText(TaskDetailActivity.this, baseModel.getErrorMessage(), Toast.LENGTH_LONG).show();
@@ -135,7 +144,7 @@ public class TaskDetailActivity extends BaseActivity implements View.OnClickList
 
             @Override
             public void onErrorResponse(VolleyError error) {
-                MyToast.showDialog(TaskDetailActivity.this, error.toString());
+                Toast.makeText(TaskDetailActivity.this, "分拣失败", Toast.LENGTH_LONG).show();
                 stopProgressDialog();
             }
 
@@ -147,7 +156,7 @@ public class TaskDetailActivity extends BaseActivity implements View.OnClickList
         startProgressDialog("Loading...");
 
         JSONStringer jsonStr = new JSONStringer();
-        String url = Constants.url_WavePickClaim + "stockCode=" + preferences.getString("StockCode", "") + "&wavepickconfirmCode=" + waveCode + "&  userCode" + preferences.getString("code", "");
+        String url = Constants.url_WavePickClaim + "stockCode=" + preferences.getString("StockCode", "") + "&wavepickconfirmCode=" + waveCode + "&userCode=" + preferences.getString("code", "");
         Log.i("走不走", url + "");
         RequestQueue mRequestQueue = Volley.newRequestQueue(TaskDetailActivity.this);
         JsonObjectRequest request = new JsonObjectRequest(
@@ -178,7 +187,7 @@ public class TaskDetailActivity extends BaseActivity implements View.OnClickList
 
             @Override
             public void onErrorResponse(VolleyError error) {
-                MyToast.showDialog(TaskDetailActivity.this, error.toString());
+                Toast.makeText(TaskDetailActivity.this, "认领失败", Toast.LENGTH_LONG).show();
                 stopProgressDialog();
             }
 
