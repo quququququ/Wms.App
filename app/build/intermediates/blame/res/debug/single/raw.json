@@ -34,5 +34,9 @@
     {
         "merged": "G:\\Wms.App_two\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\raw\\success_new.ogg",
         "source": "G:\\Wms.App_two\\Wms.App_two\\app\\src\\main\\res\\raw\\success_new.ogg"
+    },
+    {
+        "merged": "G:\\Wms.App_two\\app\\build\\intermediates\\res\\merged\\debug\\raw\\zxing_beep.ogg",
+        "source": "C:\\Users\\cheng\\.android\\build-cache\\7da7b7e171b75d4d358f762d1b15a243267552b8\\output\\res\\raw\\zxing_beep.ogg"
     }
 ]

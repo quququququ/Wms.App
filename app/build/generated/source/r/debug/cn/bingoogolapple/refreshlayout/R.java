@@ -15,19 +15,19 @@ public final class R {
         public static final int mv_ultimateColor = 0x7f010000;
     }
     public static final class id {
-        public static final int iv_normal_refresh_footer_chrysanthemum = 0x7f0a0102;
-        public static final int iv_normal_refresh_header_arrow = 0x7f0a0105;
-        public static final int iv_normal_refresh_header_chrysanthemum = 0x7f0a0106;
-        public static final int moocView = 0x7f0a0104;
-        public static final int stickinessRefreshView = 0x7f0a0108;
-        public static final int tv_normal_refresh_footer_status = 0x7f0a0103;
-        public static final int tv_normal_refresh_header_status = 0x7f0a0107;
+        public static final int iv_normal_refresh_footer_chrysanthemum = 0x7f0b0116;
+        public static final int iv_normal_refresh_header_arrow = 0x7f0b0119;
+        public static final int iv_normal_refresh_header_chrysanthemum = 0x7f0b011a;
+        public static final int moocView = 0x7f0b0118;
+        public static final int stickinessRefreshView = 0x7f0b011c;
+        public static final int tv_normal_refresh_footer_status = 0x7f0b0117;
+        public static final int tv_normal_refresh_header_status = 0x7f0b011b;
     }
     public static final class layout {
-        public static final int view_normal_refresh_footer = 0x7f04004a;
-        public static final int view_refresh_header_mooc_style = 0x7f04004c;
-        public static final int view_refresh_header_normal = 0x7f04004d;
-        public static final int view_refresh_header_stickiness = 0x7f04004e;
+        public static final int view_normal_refresh_footer = 0x7f04004d;
+        public static final int view_refresh_header_mooc_style = 0x7f04004f;
+        public static final int view_refresh_header_normal = 0x7f040050;
+        public static final int view_refresh_header_stickiness = 0x7f040051;
     }
     public static final class mipmap {
         public static final int bga_refresh_loading = 0x7f030000;
