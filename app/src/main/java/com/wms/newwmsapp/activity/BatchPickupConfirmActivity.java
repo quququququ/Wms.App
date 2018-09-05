@@ -31,159 +31,163 @@ import org.json.JSONStringer;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BatchPickupConfirmActivity extends BaseActivity{
+public class BatchPickupConfirmActivity extends BaseActivity {
 
-	private ImageView back,refrash;
-	private TextView tvTask;
-	
-	private DrawerLayout mDrawerLayout;
-	private LinearLayout mFilterLayout;
-	
-	private ListView pick_list;
-	private List<WavePickupModel> pickList=new ArrayList<WavePickupModel>();
-	private WavePickupConfirmAdapter pickUpadapter;
-	private Button button_check;
-	private EditText txtCode;
-	private boolean isOther = false;
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_batch_pickup_confirm);
+    private ImageView back, refrash;
+    private TextView tvTask, tvDoneTask;
 
-		isOther = getIntent().getBooleanExtra("isOther",false);
-		back=(ImageView) findViewById(R.id.back);
-		refrash=(ImageView) findViewById(R.id.refrash);
-		tvTask = (TextView) findViewById(R.id.tv_task);
-		
-		mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
-		mFilterLayout = (LinearLayout) findViewById(R.id.filter_layout);
-		
-		//开始不弹出查询页面
-		//if (!mDrawerLayout.isDrawerOpen(mFilterLayout)) {
-			//mDrawerLayout.openDrawer(mFilterLayout);
-		//}
-		
-		pick_list=(ListView)findViewById(R.id.pick_list);
-		
-		button_check = (Button) findViewById(R.id.button_check);
-		
-		txtCode=(EditText)findViewById(R.id.Code);
-		
-		getPickUpList(txtCode.getText().toString());
-		
-		back.setOnClickListener(new OnClickListener() {
+    private DrawerLayout mDrawerLayout;
+    private LinearLayout mFilterLayout;
 
-			@Override
-			public void onClick(View arg0) {
-				// TODO Auto-generated method stub
-				finish();
-			}
-		});
-		
-		refrash.setOnClickListener(new OnClickListener() {
-			
-			@Override
-			public void onClick(View arg0) {
-				// TODO Auto-generated method stub
-				getPickUpList(txtCode.getText().toString());
-			}
-		});
-		
-		button_check.setOnClickListener(new OnClickListener() {
-			
-			@Override
-			public void onClick(View arg0) {
-				// TODO Auto-generated method stub
-				getPickUpList(txtCode.getText().toString());
-			}
-		});
+    private ListView pick_list;
+    private List<WavePickupModel> pickList = new ArrayList<WavePickupModel>();
+    private WavePickupConfirmAdapter pickUpadapter;
+    private Button button_check;
+    private EditText txtCode;
+    private boolean isOther = false;
 
-		tvTask.setOnClickListener(new OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				Intent intent = new Intent(BatchPickupConfirmActivity.this,BatchTaskActivity.class);
-				startActivity(intent);
-			}
-		});
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_batch_pickup_confirm);
 
-	}
+        isOther = getIntent().getBooleanExtra("isOther", false);
+        back = (ImageView) findViewById(R.id.back);
+        refrash = (ImageView) findViewById(R.id.refrash);
+        tvTask = (TextView) findViewById(R.id.tv_task);
+        tvDoneTask = (TextView) findViewById(R.id.tv_done_task);
 
-	private void getPickUpList(final String pickUpConfirmCode) {
-		startProgressDialog("Loading...");
+        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        mFilterLayout = (LinearLayout) findViewById(R.id.filter_layout);
 
-		JSONStringer jsonStr = new JSONStringer();
-	
-		RequestQueue mRequestQueue = Volley
-				.newRequestQueue(BatchPickupConfirmActivity.this);
-		JsonArrayRequest request = new JsonArrayRequest(Method.GET,
-				Constants.url_WavePickupConfirm+ "?stockCode=" +preferences.getString("StockCode", "")
-				+ "&userCode=" +preferences.getString("code", ""),jsonStr.toString(),new Response.Listener<JSONArray>() {
+        //开始不弹出查询页面
+        //if (!mDrawerLayout.isDrawerOpen(mFilterLayout)) {
+        //mDrawerLayout.openDrawer(mFilterLayout);
+        //}
 
-					@Override
-					public void onResponse(JSONArray response) {
-						// TODO Auto-generated method stub
-						
-						try {
-							pickList = com.alibaba.fastjson.JSONArray.parseArray(
-									response.toString(),
-									WavePickupModel.class);
-							List<WavePickupModel>list=new ArrayList<WavePickupModel>();
-							if(!pickUpConfirmCode.isEmpty())
-							{
-								for(int i=0;i<pickList.size();i++)
-								{
-									if(pickList.get(i).Code==pickUpConfirmCode)
-									{
-										list.add(pickList.get(i));
-									}
-									
-								}
-								
-							}else
-							{
-								list.addAll(pickList);
-								
-							}
+        pick_list = (ListView) findViewById(R.id.pick_list);
 
-							if (pickUpadapter == null) {
-								pickUpadapter = new WavePickupConfirmAdapter(
-										BatchPickupConfirmActivity.this, true,"BatchPickupDetailActivity",isOther);
-								pick_list.setAdapter(pickUpadapter);
-								pickUpadapter.appendList(list);
-							} else {
-								pickUpadapter.clear();
-								pickUpadapter.appendList(list);
-							}
-						} catch (Exception e) {
-							// TODO: handle exception
-							e.printStackTrace();
-						}
-						stopProgressDialog();
-						
-						
-					}
-				},new Response.ErrorListener()
-				{
+        button_check = (Button) findViewById(R.id.button_check);
 
-					@Override
-					public void onErrorResponse(VolleyError error) {
-						// TODO Auto-generated method stub
-						stopProgressDialog();
-					}
-					
-					
-				},handler);
-		mRequestQueue.add(request);
-	}
+        txtCode = (EditText) findViewById(R.id.Code);
 
-	
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.batch_pickup_confirm, menu);
-		return true;
-	}
-	
-	
+        getPickUpList(txtCode.getText().toString());
+
+        back.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                // TODO Auto-generated method stub
+                finish();
+            }
+        });
+
+        refrash.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                // TODO Auto-generated method stub
+                getPickUpList(txtCode.getText().toString());
+            }
+        });
+
+        button_check.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                // TODO Auto-generated method stub
+                getPickUpList(txtCode.getText().toString());
+            }
+        });
+
+        tvTask.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(BatchPickupConfirmActivity.this, BatchTaskActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        tvDoneTask.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(BatchPickupConfirmActivity.this, DoneTaskActivity.class);
+                startActivity(intent);
+            }
+        });
+
+    }
+
+    private void getPickUpList(final String pickUpConfirmCode) {
+        startProgressDialog("Loading...");
+
+        JSONStringer jsonStr = new JSONStringer();
+
+        RequestQueue mRequestQueue = Volley
+                .newRequestQueue(BatchPickupConfirmActivity.this);
+        JsonArrayRequest request = new JsonArrayRequest(Method.GET,
+                Constants.url_WavePickupConfirm + "?stockCode=" + preferences.getString("StockCode", "")
+                        + "&userCode=" + preferences.getString("code", ""), jsonStr.toString(), new Response.Listener<JSONArray>() {
+
+            @Override
+            public void onResponse(JSONArray response) {
+                // TODO Auto-generated method stub
+
+                try {
+                    pickList = com.alibaba.fastjson.JSONArray.parseArray(
+                            response.toString(),
+                            WavePickupModel.class);
+                    List<WavePickupModel> list = new ArrayList<WavePickupModel>();
+                    if (!pickUpConfirmCode.isEmpty()) {
+                        for (int i = 0; i < pickList.size(); i++) {
+                            if (pickList.get(i).Code == pickUpConfirmCode) {
+                                list.add(pickList.get(i));
+                            }
+
+                        }
+
+                    } else {
+                        list.addAll(pickList);
+
+                    }
+
+                    if (pickUpadapter == null) {
+                        pickUpadapter = new WavePickupConfirmAdapter(
+                                BatchPickupConfirmActivity.this, true, "BatchPickupDetailActivity", isOther);
+                        pick_list.setAdapter(pickUpadapter);
+                        pickUpadapter.appendList(list);
+                    } else {
+                        pickUpadapter.clear();
+                        pickUpadapter.appendList(list);
+                    }
+                } catch (Exception e) {
+                    // TODO: handle exception
+                    e.printStackTrace();
+                }
+                stopProgressDialog();
+
+
+            }
+        }, new Response.ErrorListener() {
+
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                // TODO Auto-generated method stub
+                stopProgressDialog();
+            }
+
+
+        }, handler);
+        mRequestQueue.add(request);
+    }
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.batch_pickup_confirm, menu);
+        return true;
+    }
+
 
 }

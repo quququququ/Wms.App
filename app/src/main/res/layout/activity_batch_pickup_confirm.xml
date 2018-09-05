@@ -24,6 +24,17 @@
                 android:src="@drawable/arrow_common_left" />
 
             <TextView
+                android:id="@+id/tv_task"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:layout_centerVertical="true"
+                android:text="任务"
+                android:layout_toRightOf="@+id/back"
+                android:textColor="#98FB98"
+                android:textSize="20sp" />
+
+            <TextView
                 android:id="@+id/tv_title_name"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -36,15 +47,15 @@
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/tv_task"
+                android:id="@+id/tv_done_task"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
+                android:layout_height="match_parent"
                 android:layout_centerVertical="true"
-                android:text="任务"
+                android:text="已分拣任务"
+                android:gravity="center"
                 android:layout_toLeftOf="@+id/refrash"
-                android:textColor="#FFF"
-                android:textSize="20sp" />
+                android:textColor="#98FB98"
+                android:textSize="16sp" />
 
             <ImageView
                 android:id="@+id/refrash"

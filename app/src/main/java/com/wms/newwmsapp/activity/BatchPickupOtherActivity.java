@@ -1,14 +1,17 @@
 package com.wms.newwmsapp.activity;
 
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.KeyEvent;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.WindowManager;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
@@ -29,8 +32,10 @@ import com.wms.newwmsapp.model.PickDetailModel;
 import com.wms.newwmsapp.model.WavePickupDetailModel;
 import com.wms.newwmsapp.model.WavePickupModel;
 import com.wms.newwmsapp.tool.Constants;
+import com.wms.newwmsapp.tool.EncodingUtils;
 import com.wms.newwmsapp.tool.MyChooseToastDialog;
 import com.wms.newwmsapp.tool.MyToast;
+import com.wms.newwmsapp.tool.PrintCodePop;
 import com.wms.newwmsapp.tool.SelectPackageToastDialog;
 import com.wms.newwmsapp.tool.SoundUtils;
 import com.wms.newwmsapp.volley.Request.Method;
@@ -82,11 +87,13 @@ public class BatchPickupOtherActivity extends BaseActivity implements FinishToCa
     private LinearLayout llAll;
     private Button btnSure;
     private String pickCode = "";
+    public static BatchPickupOtherActivity pickupDetailActivity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_batch_pickup_detail);
+        pickupDetailActivity = this;
         pickCode = getIntent().getStringExtra("pickcode");
         btnSure = (Button) findViewById(R.id.btn_sure);
         lvPackageNum = (ListView) findViewById(R.id.package_list);
@@ -501,7 +508,7 @@ public class BatchPickupOtherActivity extends BaseActivity implements FinishToCa
         pickUpadapter.appendList(showList);
     }
 
-    private void Submit(String pickCode) {
+    private void Submit(final String pickCode) {
 
 //        if (!hasBind) {
 //            Toast.makeText(BatchPickupOtherActivity.this, "请先绑定包裹号", Toast.LENGTH_LONG).show();
@@ -605,13 +612,46 @@ public class BatchPickupOtherActivity extends BaseActivity implements FinishToCa
                                 .parseObject(response.toString());
                         boolean flag = jsonObject.getBoolean("IsSuccess");
                         if (flag) {
-                            MyToast.showDialog(
-                                    BatchPickupOtherActivity.this, "提交成功!");
-                            Intent intent = new Intent(
-                                    BatchPickupOtherActivity.this,
-                                    BatchPickupConfirmActivity.class);
-                            startActivity(intent);
-                            finish();
+                            //加弹窗条形码
+                            LayoutInflater inflater = getLayoutInflater();
+                            View view = inflater.inflate(R.layout.dialog_showchoosedialog, null);
+                            final AlertDialog ad = new AlertDialog.Builder(BatchPickupOtherActivity.this).create();
+                            ad.setView(view);
+                            ad.show();
+
+                            TextView txtMessage = (TextView) view.findViewById(R.id.message);
+                            txtMessage.setText("分拣提交成功，是否打印面单？");
+                            TextView btnOk = (TextView) view.findViewById(R.id.btn_ok);
+                            btnOk.setOnClickListener(new OnClickListener() {
+
+                                @Override
+                                public void onClick(View arg0) {
+                                    // TODO Auto-generated method stub
+                                    ad.dismiss();
+                                    WindowManager wm = (WindowManager) BatchPickupOtherActivity.this.getSystemService(Context.WINDOW_SERVICE);
+                                    int width = wm.getDefaultDisplay().getWidth();
+                                    PrintCodePop showMoreMenuPop = new PrintCodePop(BatchPickupOtherActivity.this, BatchPickupOtherActivity.this.getWindow(), EncodingUtils.createBarcode(pickCode, width, 200, false), "2");
+                                    showMoreMenuPop.showUp();
+
+                                }
+                            });
+
+                            TextView btnCancle = (TextView) view.findViewById(R.id.btn_cancel);
+                            btnCancle.setOnClickListener(new OnClickListener() {
+
+                                @Override
+                                public void onClick(View arg0) {
+                                    // TODO Auto-generated method stub
+                                    ad.dismiss();
+                                    Intent intent = new Intent(BatchPickupOtherActivity.this, BatchPickupConfirmActivity.class);
+                                    startActivity(intent);
+                                    finish();
+                                }
+                            });
+
+//                            MyToast.showDialog(
+//                                    BatchPickupOtherActivity.this, "提交成功!");
+
 
                         } else {
                             String Message = jsonObject

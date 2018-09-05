@@ -37,7 +37,7 @@ public class SeedingPickupConfimActivity extends BaseActivity {
 
     private DrawerLayout mDrawerLayout;
     private LinearLayout mFilterLayout;
-    private TextView tvTask;
+    private TextView tvTask,tvDoneTask;
     private ListView pick_list;
     private List<WavePickupModel> pickList = new ArrayList<WavePickupModel>();
     private WavePickupConfirmAdapter pickUpadapter;
@@ -64,6 +64,7 @@ public class SeedingPickupConfimActivity extends BaseActivity {
         pick_list = (ListView) findViewById(R.id.pick_list);
 
         button_check = (Button) findViewById(R.id.button_check);
+        tvDoneTask = (TextView) findViewById(R.id.tv_done_task);
 
         txtCode = (EditText) findViewById(R.id.Code);
 
@@ -101,6 +102,14 @@ public class SeedingPickupConfimActivity extends BaseActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(SeedingPickupConfimActivity.this, BatchTaskActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        tvDoneTask.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(SeedingPickupConfimActivity.this, DoneTaskActivity.class);
                 startActivity(intent);
             }
         });

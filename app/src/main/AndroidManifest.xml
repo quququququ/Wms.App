@@ -167,6 +167,10 @@
             android:label="PickUpOtherActivity"
             android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
         <activity
+            android:name="com.wms.newwmsapp.activity.DoneTaskActivity"
+            android:label="DoneTaskActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+        <activity
             android:name="com.wms.newwmsapp.activity.ZhuancangToCarActivity"
             android:label="ZhuancangToCarActivity"
             android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>

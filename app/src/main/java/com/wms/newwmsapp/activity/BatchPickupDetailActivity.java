@@ -1,11 +1,15 @@
 package com.wms.newwmsapp.activity;
 
+import android.app.AlertDialog;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.KeyEvent;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.WindowManager;
 import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.EditText;
@@ -23,8 +27,10 @@ import com.wms.newwmsapp.model.PickDetailModel;
 import com.wms.newwmsapp.model.WavePickupDetailModel;
 import com.wms.newwmsapp.model.WavePickupModel;
 import com.wms.newwmsapp.tool.Constants;
+import com.wms.newwmsapp.tool.EncodingUtils;
 import com.wms.newwmsapp.tool.MyChooseToastDialog;
 import com.wms.newwmsapp.tool.MyToast;
+import com.wms.newwmsapp.tool.PrintCodePop;
 import com.wms.newwmsapp.tool.SelectPackageToastDialog;
 import com.wms.newwmsapp.tool.SoundUtils;
 import com.wms.newwmsapp.volley.Request.Method;
@@ -67,12 +73,13 @@ public class BatchPickupDetailActivity extends BaseActivity {
     private boolean isOther = false;
     private SelectPackageToastDialog mDialog;
     private String postStr;
+    public static BatchPickupDetailActivity pickupDetailActivity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_batch_pickup_detail);
-
+        pickupDetailActivity = this;
         isOther = getIntent().getBooleanExtra("isOther", false);
         back = (ImageView) findViewById(R.id.back);
         back.setOnClickListener(new OnClickListener() {
@@ -365,7 +372,7 @@ public class BatchPickupDetailActivity extends BaseActivity {
         pickUpadapter.appendList(showList);
     }
 
-    private void Submit(String pickCode) {
+    private void Submit(final String pickCode) {
         boolean isComplete = true;
         for (int i = 0; i < model.Details.size(); i++) {
             if (!model.Details.get(i).isIsScan()) {
@@ -450,18 +457,51 @@ public class BatchPickupDetailActivity extends BaseActivity {
                 @Override
                 public void onResponse(JSONObject response) {
                     try {
+                        //加弹窗条形码
 
                         com.alibaba.fastjson.JSONObject jsonObject = JSON
                                 .parseObject(response.toString());
                         boolean flag = jsonObject.getBoolean("IsSuccess");
                         if (flag) {
-                            MyToast.showDialog(
-                                    BatchPickupDetailActivity.this, "提交成功!");
-                            Intent intent = new Intent(
-                                    BatchPickupDetailActivity.this,
-                                    BatchPickupConfirmActivity.class);
-                            startActivity(intent);
-                            finish();
+                            LayoutInflater inflater = getLayoutInflater();
+                            View view = inflater.inflate(R.layout.dialog_showchoosedialog, null);
+                            final AlertDialog ad = new AlertDialog.Builder(BatchPickupDetailActivity.this).create();
+                            ad.setView(view);
+                            ad.show();
+
+                            TextView txtMessage = (TextView) view.findViewById(R.id.message);
+                            txtMessage.setText("分拣提交成功，是否打印面单？");
+                            TextView btnOk = (TextView) view.findViewById(R.id.btn_ok);
+                            btnOk.setOnClickListener(new OnClickListener() {
+
+                                @Override
+                                public void onClick(View arg0) {
+                                    // TODO Auto-generated method stub
+                                    ad.dismiss();
+                                    WindowManager wm = (WindowManager) BatchPickupDetailActivity.this.getSystemService(Context.WINDOW_SERVICE);
+                                    int width = wm.getDefaultDisplay().getWidth();
+                                    PrintCodePop showMoreMenuPop = new PrintCodePop(BatchPickupDetailActivity.this, BatchPickupDetailActivity.this.getWindow(), EncodingUtils.createBarcode(pickCode, width, 200, false), "1");
+                                    showMoreMenuPop.showUp();
+
+                                }
+                            });
+
+                            TextView btnCancle = (TextView) view.findViewById(R.id.btn_cancel);
+                            btnCancle.setOnClickListener(new OnClickListener() {
+
+                                @Override
+                                public void onClick(View arg0) {
+                                    // TODO Auto-generated method stub
+                                    ad.dismiss();
+                                    Intent intent = new Intent(BatchPickupDetailActivity.this, BatchPickupConfirmActivity.class);
+                                    startActivity(intent);
+                                    finish();
+                                }
+                            });
+
+//                            MyToast.showDialog(
+//                                    BatchPickupOtherActivity.this, "提交成功!");
+
 
                         } else {
                             String Message = jsonObject
