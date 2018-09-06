@@ -2,7 +2,6 @@ package com.wms.newwmsapp.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -125,7 +124,7 @@ public class TaskDetailActivity extends BaseActivity implements View.OnClickList
                 try {
                     baseModel = com.alibaba.fastjson.JSONObject.parseObject(response.toString(), BaseModel.class);
                     if (baseModel.isIsSuccess()) {
-                        Intent intent = new Intent(TaskDetailActivity.this,BatchPickupOtherActivity.class);
+                        Intent intent = new Intent(TaskDetailActivity.this,BatchPickupDetailActivity.class);
                         intent.putExtra("pickcode",waveCode);
                         startActivity(intent);
                         finish();
@@ -157,14 +156,12 @@ public class TaskDetailActivity extends BaseActivity implements View.OnClickList
 
         JSONStringer jsonStr = new JSONStringer();
         String url = Constants.url_WavePickClaim + "stockCode=" + preferences.getString("StockCode", "") + "&wavepickconfirmCode=" + waveCode + "&userCode=" + preferences.getString("code", "");
-        Log.i("走不走", url + "");
         RequestQueue mRequestQueue = Volley.newRequestQueue(TaskDetailActivity.this);
         JsonObjectRequest request = new JsonObjectRequest(
                 Request.Method.POST, url, jsonStr.toString(), new Response.Listener<JSONObject>() {
 
             @Override
             public void onResponse(JSONObject response) {
-                Log.i("走不走", response.toString() + "");
                 // TODO Auto-generated method stub
                 try {
                     baseModel = com.alibaba.fastjson.JSONObject.parseObject(response.toString(), BaseModel.class);

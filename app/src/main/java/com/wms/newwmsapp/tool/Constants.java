@@ -3,11 +3,11 @@ package com.wms.newwmsapp.tool;
 public class Constants {
 
     static String URL_Base_Update = "http://wmsserver.your56.com:8888/wmsserver/";//更新的服务器
-	static String URL_Base= "http://yaslb.your56.com:8888/wmsserver/";//正式服务器
+//	static String URL_Base= "http://yaslb.your56.com:8888/wmsserver/";//正式服务器
 
-    //    	static String URL_Base= "http://192.168.1.166/wmsservice/";//测试服务器
+//        	static String URL_Base= "http://192.168.1.166/wmsservice/";//测试服务器
 //    static String URL_Base = "http://116.236.124.150:8000/wmsservice/";//测试服务器
-//    static String URL_Base = "http://dev.your56.com:6666/wmsservice/";//新测试服务器
+    static String URL_Base = "http://dev.your56.com:6666/wmsservice/";//新测试服务器
 
     public static String URL_HOST = URL_Base + "wmsrf.svc/";
 

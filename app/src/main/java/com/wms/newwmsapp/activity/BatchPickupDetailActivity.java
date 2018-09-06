@@ -4,6 +4,8 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -74,11 +76,13 @@ public class BatchPickupDetailActivity extends BaseActivity {
     private SelectPackageToastDialog mDialog;
     private String postStr;
     public static BatchPickupDetailActivity pickupDetailActivity;
+    private String pickCode = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_batch_pickup_detail);
+        pickCode = getIntent().getStringExtra("pickcode");
         pickupDetailActivity = this;
         isOther = getIntent().getBooleanExtra("isOther", false);
         back = (ImageView) findViewById(R.id.back);
@@ -97,7 +101,10 @@ public class BatchPickupDetailActivity extends BaseActivity {
 
         pick_list = (ListView) findViewById(R.id.pick_list);
 
-        GetDetail(pick.getCode());
+        if (TextUtils.isEmpty(pickCode))
+            GetDetail(pick.getCode());
+        else
+            GetDetail(pickCode);
         GoodsposCode = (EditText) findViewById(R.id.GoodsposCode);
         txtGoodsPosName = (TextView) findViewById(R.id.GoodsposName);
 
@@ -205,7 +212,10 @@ public class BatchPickupDetailActivity extends BaseActivity {
                             public void onClick(View arg0) {
                                 // TODO Auto-generated method stub
                                 try {
-                                    GetDetail(pick.getCode());
+                                    if (TextUtils.isEmpty(pickCode))
+                                        GetDetail(pick.getCode());
+                                    else
+                                        GetDetail(pickCode);
                                     progressDialog.dismiss();
                                 } catch (Exception e) {
                                     // TODO: handle exception
@@ -545,7 +555,8 @@ public class BatchPickupDetailActivity extends BaseActivity {
         String url = Constants.url_WavePickupConfirmDetail
                 + "?wavepickconfirmCode=" + pickCode + "&userCode="
                 + preferences.getString("code", "");
-
+        Log.i("走不走","url------"+url.toString());
+        Log.i("走不走","pickCode------"+pickCode.toString());
         JSONStringer jsonStr = new JSONStringer();
 
         RequestQueue mRequestQueue = Volley
@@ -556,7 +567,7 @@ public class BatchPickupDetailActivity extends BaseActivity {
             @Override
             public void onResponse(JSONObject response) {
                 try {
-
+                    Log.i("走不走",response.toString());
                     com.alibaba.fastjson.JSONObject jsonObject = JSON
                             .parseObject(response.toString());
                     model = JSON.parseObject(response.toString(),
